@@ -23,11 +23,11 @@ function App() {
           element: <Root/>
         },
         {
-          path: 'courses/:id',
+          path: '/treemiti/courses/:id',
           element: <CourseDetails/>
         },
         {
-          path: 'CareerGuidance',
+          path: '/treemiti/CareerGuidance',
           element: <CareerGuidance/>
         }
       ]
