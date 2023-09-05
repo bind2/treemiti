@@ -1,7 +1,8 @@
 .features-list {
-    // border: 1px solid red;
+    border: 1px solid red;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 2rem;
 
@@ -9,6 +10,9 @@
         border: 1px solid red;
         width: 13rem;
         height: 18rem;
+        flex: 1 1 auto;
+        margin: 1.5rem;
+        // padding: 0 1rem;
         border-radius: 0 0 1rem 1rem;
         padding: 0 1rem;
         transition: .3s;

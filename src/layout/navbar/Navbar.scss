@@ -19,6 +19,7 @@ nav{
         }
 
         &>ul{
+            // border: 1px solid red;
             list-style: none;
             display: flex;
             gap: 2rem;
@@ -60,6 +61,22 @@ nav{
 
             &:hover{
                 background-color: #260817;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px){
+    nav{
+        &>#navbar{
+
+            &>ul{
+                display: none;
+            }
+
+            &>.menu{
+                display: flex;
             }
         }
     }
