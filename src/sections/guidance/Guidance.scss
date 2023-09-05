@@ -1,0 +1,14 @@
+.guidance-section{
+    &>#guidance{
+        border: 1px solid red;
+        padding: 10rem 1.5rem;
+
+        &>h2{
+            text-align: center;
+            color: red;
+            font-size: 3.5rem;
+            font-weight: 400;
+            font-family: 'Philosopher', sans-serif;
+        }
+    }
+}

@@ -1,0 +1,146 @@
+.course-details-section {
+    &>#course-details {
+        border: 1px solid red;
+        padding: 3rem 0;
+
+        &>h2 {
+            text-align: center;
+            color: red;
+            font-size: 3.5rem;
+            font-weight: 400;
+            font-family: 'Philosopher', sans-serif;
+            text-transform: uppercase;
+        }
+
+        &>article{
+            // border: 1px solid red;
+            margin-top: 2rem;
+            padding: 1.5rem;
+            
+            &>p{
+                font-family: 'Nunito Sans', sans-serif;
+                font-weight: 300;
+                &>strong{
+                    font-weight: 500;
+                }
+            }
+        }
+
+        &>.carts {
+            // border: 1px solid red;
+            background-color: #EEEEEE;
+            margin-top: 5rem;
+            padding: 1.5rem 0;
+            // width: 100%;
+
+            &>h3{
+                text-align: center;
+                margin: 2rem 0;
+                color: #871550;
+                font-family: 'Signika', sans-serif;
+                font-weight: 400;
+                font-size: 2.5rem;
+            }
+
+            &>div{
+                border: 1px solid red;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                // align-items: center;
+
+                &>.cart-scope{
+                    width: 30rem;
+                    min-height: 20rem;
+                    border: 1px solid red;
+                    flex: 1 1 auto;
+                    margin: 1.5rem;
+                    padding: 2rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    &>h6{
+                        font-size: 1.6rem;
+                        color: #871550;
+                    }
+                    
+                    &>address{
+                        // border: 1px solid red;
+                        margin-top: 1rem;
+                        text-align: center;
+                        &>p{
+                            font-style: normal;
+                            line-height: 4rem;
+
+                            &>a{
+                                color: #4582b7;
+
+                                &:hover{
+                                    color: #2f6391;
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &>.other-courses {
+            border: 1px solid red;
+            margin-top: 5rem;
+
+
+            &>h3{
+                text-align: center;
+                margin: 2rem 0;
+                color: #871550;
+                font-family: 'Signika', sans-serif;
+                font-weight: 400;
+                font-size: 2.5rem;
+            }
+
+            &>div {
+                // border: 1px solid red;
+                display: flex;
+                flex-wrap: wrap;
+
+                &>.course-cart {
+                    border: 1px solid red;
+                    padding: 0 1rem;
+                    border-radius: 0 0 1rem 1rem;
+                    width: 10rem;
+                    height: 18rem;
+                    background-color: transparent;
+                    transition: .3s;
+
+                    &>a {
+                        &>figure {
+                            width: 9rem;
+                            height: 9rem;
+                            border: 1px solid red;
+                        }
+
+                        &>h3 {
+                            font-size: 1.5rem;
+                            text-align: center;
+                            // border: 1px solid red;
+                            font-weight: 600;
+                        }
+                    }
+
+                    &:hover {
+                        background-color: #871550;
+
+                        &>a {
+                            &>h3 {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
