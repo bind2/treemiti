@@ -7,16 +7,16 @@ const Navbar = () => {
   return (
     <nav>
         <div className="container" id='navbar'>
-            <Link to='/#'><img src={logo} alt="" /></Link>
+            <Link to='/treemiti/#'><img src={logo} alt="" /></Link>
 
             <ul>
-                <li><Link to='/#'>Home</Link></li>
-                <li><Link to='/#courses'>Courses</Link></li>
-                <li><Link to='/#about'>About us</Link></li>
-                <li><Link to='/#testimonials'>Testimonials</Link></li>
-                <li><Link to='/#placements'>Placements</Link></li>
-                <li><Link to='/#guidance'>Guidance</Link></li>
-                <li><Link to='/#contact'>Contact</Link></li>
+                <li><Link to='/treemiti/#'>Home</Link></li>
+                <li><Link to='/treemiti/#courses'>Courses</Link></li>
+                <li><Link to='/treemiti/#about'>About us</Link></li>
+                <li><Link to='/treemiti/#testimonials'>Testimonials</Link></li>
+                <li><Link to='/treemiti/#placements'>Placements</Link></li>
+                <li><Link to='/treemiti/#guidance'>Guidance</Link></li>
+                <li><Link to='/treemiti/#contact'>Contact</Link></li>
             </ul>
 
             <div className="menu"></div>
