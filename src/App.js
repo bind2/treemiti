@@ -11,7 +11,7 @@ import CareerGuidance from './internal-pages/career-guidance/CareerGuidance';
 function App() {
   const router = createBrowserRouter([
     {
-      path: '/',
+      path: '/treemiti',
       element: <React.Fragment>
         <Navbar/>
         <Main/>
@@ -19,7 +19,7 @@ function App() {
       </React.Fragment>,
       children:[
         {
-          path: '/',
+          path: '/treemiti',
           element: <Root/>
         },
         {
