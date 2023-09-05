@@ -1,9 +1,7 @@
 import React from 'react'
 import './CourseCart.scss'
 import { HashLink as Link } from 'react-router-hash-link'
-import Data from '../../Data.js'
 
-console.log(Data[0].img)
 const CourseCart = (props) => {
     return (
         <div className='course-cart'>
