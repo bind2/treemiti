@@ -8,6 +8,7 @@ import Guidance from '../sections/guidance/Guidance'
 import Contact from '../sections/contact/Contact'
 
 const Root = () => {
+  document.title = 'Treemiti | Professional IT Training Institute in Nashik'
   return (
     <React.Fragment>
         <Header/>

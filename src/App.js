@@ -9,6 +9,7 @@ import CourseDetails from './internal-pages/course-details/CourseDetails';
 import CareerGuidance from './internal-pages/career-guidance/CareerGuidance';
 
 function App() {
+  
   const router = createBrowserRouter([
     {
       path: '/treemiti',
@@ -27,7 +28,7 @@ function App() {
           element: <CourseDetails/>
         },
         {
-          path: '/treemiti/CareerGuidance',
+          path: '/treemiti/:id',
           element: <CareerGuidance/>
         }
       ]

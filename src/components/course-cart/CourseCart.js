@@ -3,9 +3,11 @@ import './CourseCart.scss'
 import { HashLink as Link } from 'react-router-hash-link'
 
 const CourseCart = (props) => {
+    // let [fname, lname] = props.name.split(" ")
+    // console.log(name)
     return (
         <div className='course-cart'>
-            <Link to={`/treemiti/courses/${props.id}#`}>
+            <Link to={`/treemiti/courses/${props.index}#`}>
                 <figure>
                     <img src={props.img} alt="" />
                 </figure>

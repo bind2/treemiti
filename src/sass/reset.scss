@@ -4,7 +4,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     text-decoration: none;
-    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 html {
@@ -19,4 +19,14 @@ body {
     max-width: 120rem;
     margin: 0 auto;
     padding: 0 1.5rem;
+}
+
+
+body::-webkit-scrollbar{
+    width: .5rem;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #871550;
+    // border-radius: .5rem;
 }

@@ -1,7 +1,9 @@
 .about-section {
+    background-color: #EEEEEE;
     &>#about {
-        border: 1px solid red;
+        // border: 1px solid red;
         padding: 10rem 0;
+
 
         &>h2 {
             text-align: center;
@@ -13,14 +15,18 @@
 
         &>article {
             max-width: 1000px;
-            border: 1px solid red;
+            // border: 1px solid red;
             text-align: center;
             margin: 3rem auto;
             padding: 0 1.5rem;
+
+            &>p{
+                font-size: 1.4rem;
+            }
         }
 
         &>.course-features {
-            border: 1px solid red;
+            // border: 1px solid red;
             max-width: 1000px;
             margin: 0 auto;
 

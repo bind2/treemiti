@@ -1,18 +1,25 @@
 import React from 'react'
 import './CourseDetails.scss'
 import CourseCart from '../../components/course-cart/CourseCart'
-import courseData from '../../courseData.json'
+import Data from '../../Data.json'
 import { useParams } from 'react-router-dom'
 import CartList from '../../components/cart-list/CartList'
 import { HashLink as Link } from 'react-router-hash-link'
 
-const CourseDetails = () => {
-    const cartList = courseData.map((data, index) => {
-        return <CourseCart key={index} id={index} img={data.img} name={data.name} />
-    })
 
+const CourseDetails = () => {
+    const cartList = Data.map((data, index) => {
+        return <CourseCart
+            key={index}
+            index={index}
+            img={data.img1}
+            name={data.name}
+            path={data.path}
+        />
+    })
     const params = useParams()
-    const { title, discription } = courseData[params.id]
+    const { name, title, discription } = Data[params.id]
+    document.title = name
     return (
         <section className='course-details-section'>
             <div className="container" id='course-details'>
@@ -36,7 +43,7 @@ const CourseDetails = () => {
                             <h6>How to Join?</h6>
                             <address>
                                 <p>Call at +91 <a href="tel:+919579573923">9579573923</a></p>
-                                <p>Message us on <a href="https://wa.me/+918766916602" target='_blank' rel='noreferrer'> whatsapp</a></p>
+                                <p>Message us on <a href="https://wa.me/+919579573923?text=Hello! I am interested in one of your course / service"> whatsapp</a></p>
                                 <p>Email on <a href="mailto:contact@treemiti.com">contact@treemiti.com</a></p>
                                 <p>Please fill up the <Link to='/treemiti/#contact'>inqury from</Link></p>
                             </address>

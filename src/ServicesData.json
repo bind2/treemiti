@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Career Guidance",
+        "path": "Career-Guidance",
+        "img": "./images/about-img/career-guidance.png",
+        "thumbnail": "./images/about-img/treemiti-career-guidance.png",
+        "discription": "<p>In today's world when numerous fields are available to build career knowing which one suited best for ourself is very important. One can excel himself / herself with the field which keep his / her interest alive. Many a times students are not able to decide which is the right field for them. Even parents are not able to understand which is the best suited field for their child. This all happen due to unawareness of current and future requirements in the various fields.</p><br/><p>At Treemiti Informatics we look at student ability to understand various things and their educational background, which help us to guide them for future planning. We suggest them the roadmap to achieve their goals and also provide technologies possible at our end.</p><br/><p>If you are interested in developing your career in Information Technology. We help you to select the right option suitable to your qualification. We conduct various workshops and seminars to make student aware about trends and technologies.</p><br/><p>To know more about Career Paths click here</p>"
+        
+    },
+    {
+        "name": "Industrial Syllabus",
+        "path": "Industrial-Syllabus",
+        "img": "./images/about-img/industrial-syllabus.png",
+        "thumbnail": "./images/about-img/treemiti-industrial-syllabus.png",
+        "discription": "<p>It is generally felt that there is a wide gap between education and industry requirements. Students often complain that they are not properly prepared for the workplace after completing their studies.</p><br/><p>In order to bridge this gap, it is important for educators to understand the needs of industry and align their syllabi accordingly. Only then can students be adequately prepared for the challenges they will face in the real world.</p><br/><p>Some key areas that should be addressed in the syllabus are: - Communication skills - Teamwork - Problem solving - Critical thinking - Time management - Conflict resolution - Interpersonal skills</p><br/><p>All the mentionded skills are developed in students with many scientifically designed workshops and events and students are guided and graded in their certication as per their efforts in the activities</p>"
+    },
+    {
+        "name": "Experienced Faculties",
+        "path": "Experienced-Faculties",
+        "img": "./images/about-img/expert-teacher.png",
+        "thumbnail": "./images/about-img/treemiti-experience-faculties.png",
+        "discription": "<p>A faculty with a lot of experience in the industry is a definite advantage for the students. They are knowledgeable about the practical issues and know how to solve them. They also have field knowledge and can offer insights that are invaluable for their students.</p><br/><p>The faculty should have a deep understanding of the domain, which is essential for teaching students. This is because they will be able to provide more practical advice and answer questions directly related to their area of expertise.</p><br/><p>It is important that the faculty has hands-on experience in the industry they are teaching in, so that they can offer insights that are invaluable for their students.</p><br/><p>A faculty’s experience is an important factor in determining the quality of their teaching. Treemiti is blessed with faculties having experience of minimum 5+ years in their respective domains.</p>"
+    },
+    {
+        "name": "Trusted Certification",
+        "path": "Trusted-Certification",
+        "img": "./images/about-img/trusted-certifications.png",
+        "thumbnail": "./images/about-img/treemiti-trusted-certification.png",
+        "discription": "<p>Treemiti certification is a certification that is well-known and respected in the industry. A certification by Treemiti will help students to get a job, or it will give you the skills that are needed to have a better chance at finding a job. It can also help you advance in your career.</p><br/><p>If you are looking for a job, then having a trusted certification can make all the difference.</p><br/><p>If you are looking for more skills or to advance your career, then having an industry-acknowledged certificate will open up new opportunities for you.</p><br/><p>So being in a part of Treemiti will help you in all ways of your career advancement</p>"
+
+    },
+    {
+        "name": "Personality Development",
+        "path": "Personality-Development",
+        "img": "./images/about-img/personal-development.png",
+        "thumbnail": "./images/about-img/treemiti-personal-development.png",
+        "discription": "<p>The process of enhancing and refining one's inner and outer selves in order to make a good change in one's life is referred to as personality development.</p><br/><p>The amount of effort one puts into their profession is no longer the only factor in determining success; one's personality also plays a significant role.</p><br/><p>For Personality Development Tips click here</p>"
+    },
+    {
+        "name": "Placement Assistance",
+        "path": "Placement-Assistance",
+        "img": "./images/about-img/placement-asisstance.png",
+        "thumbnail": "./images/about-img/treemiti-placement-assistance.png",
+        "discription": "<p>The placement assistance service is designed to help students find suitable placements for their desired profession, and to help employers find the right candidates. It will be a win-win situation for both the students and the employers.</p><br/><p>In order to get a better understanding of what this service is about, it is important to know what placement assistance does. The placement assistance service enables students to find placements in a specific domain, according to their interests and skillsets. Students can also use it as a platform for getting advice on how they should prepare themselves before finding a job or internship position. Employers can use this service as well, but with different intentions: they can use it as an opportunity to get in touch with potential new employees or interns that they might not have found otherwise.</p><br/><p>The future placement support will be mainly focused on job satisfaction. This will ensure that students are happy with their work, so they will be more likely to stay in the company after their placement is over.</p>"
+    }
+    
+]

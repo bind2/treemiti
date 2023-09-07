@@ -1,9 +1,11 @@
 .course-details-section {
     &>#course-details {
-        border: 1px solid red;
+        // border: 1px solid red;
         padding: 3rem 0;
 
         &>h2 {
+            // border: 1px solid red;
+            padding: 0 1.5rem;
             text-align: center;
             color: red;
             font-size: 3.5rem;
@@ -18,11 +20,13 @@
             padding: 1.5rem;
             
             &>p{
-                font-family: 'Nunito Sans', sans-serif;
-                font-weight: 300;
-                &>strong{
-                    font-weight: 500;
-                }
+                // font-family: 'Nunito Sans', sans-serif;
+                font-size: 1.4rem;
+                line-height: 2.4rem;
+                // font-weight: 300;
+                // &>strong{
+                //     font-weight: 600;
+                // }
             }
         }
 
@@ -43,7 +47,7 @@
             }
 
             &>div{
-                border: 1px solid red;
+                // border: 1px solid red;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
@@ -52,7 +56,7 @@
                 &>.cart-scope{
                     width: 30rem;
                     min-height: 20rem;
-                    border: 1px solid red;
+                    // border: 1px solid red;
                     flex: 1 1 auto;
                     margin: 1.5rem;
                     padding: 2rem;
@@ -88,7 +92,7 @@
         }
 
         &>.other-courses {
-            border: 1px solid red;
+            // border: 1px solid red;
             margin-top: 5rem;
 
 
@@ -107,26 +111,26 @@
                 flex-wrap: wrap;
 
                 &>.course-cart {
-                    border: 1px solid red;
+                    // border: 1px solid red;
                     padding: 0 1rem;
                     border-radius: 0 0 1rem 1rem;
-                    width: 10rem;
+                    width: 11rem;
                     height: 18rem;
-                    background-color: transparent;
+                    background-color: #EEEEEE;
                     transition: .3s;
 
                     &>a {
                         &>figure {
                             width: 9rem;
                             height: 9rem;
-                            border: 1px solid red;
+                            // border: 1px solid red;
                         }
 
                         &>h3 {
                             font-size: 1.5rem;
                             text-align: center;
                             // border: 1px solid red;
-                            font-weight: 600;
+                            font-weight: 400;
                         }
                     }
 

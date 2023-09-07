@@ -1,13 +1,19 @@
 import React from 'react'
 import './Courses.scss'
 import CourseCart from '../../components/course-cart/CourseCart'
-import courseData from '../../courseData.json'
+import Data from '../../Data.json'
 
 
 const Courses = () => {
 
-    const cartList = courseData.map((data, index) => {
-        return <CourseCart key={index} id={index} img={data.img} name={data.name} />
+    const cartList = Data.map((data, index) => {
+        return <CourseCart
+            key={index}
+            index={index}
+            img={data.img}
+            name={data.name}
+            path={data.path}
+        />
     })
 
     return (
