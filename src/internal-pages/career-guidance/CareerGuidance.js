@@ -1,20 +1,20 @@
 import React from 'react'
 // import './CareerGuidance.scss'
-import ServicesData from '../../ServicesData.json'
-import Data from '../../Data.json'
+import AboutData from '../../data/AboutData.json'
+import CourseData from '../../data/CourseData.json'
 import CourseCart from '../../components/course-cart/CourseCart'
 import { NavLink as Link, useParams } from 'react-router-dom'
 const CareerGuidance = () => {
 
   const params = useParams()
-  const { name, thumbnail, discription } = ServicesData[params.id]
+  const { name, thumbnail, discription } = AboutData[params.id]
   document.title = name
 
-  let serviceList = ServicesData.map((data, index) => {
+  let serviceList = AboutData.map((data, index) => {
     return <li key={index}><Link to={`/treemiti/${index}#`}><figure><img src={data.img} alt="" /></figure><h3>{data.name}</h3></Link></li>
   })
 
-  const cartList = Data.map((data, index) => {
+  const cartList = CourseData.map((data, index) => {
     return <CourseCart
       key={index}
       index={index}

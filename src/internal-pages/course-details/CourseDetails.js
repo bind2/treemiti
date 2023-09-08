@@ -1,14 +1,14 @@
 import React from 'react'
 // import './CourseDetails.scss'
 import CourseCart from '../../components/course-cart/CourseCart'
-import Data from '../../Data.json'
+import CourseData from '../../data/CourseData.json'
 import { useParams } from 'react-router-dom'
 import CartList from '../../components/cart-list/CartList'
 import { HashLink as Link } from 'react-router-hash-link'
 
 
 const CourseDetails = () => {
-    const cartList = Data.map((data, index) => {
+    const cartList = CourseData.map((data, index) => {
         return <CourseCart
             key={index}
             index={index}
@@ -18,7 +18,7 @@ const CourseDetails = () => {
         />
     })
     const params = useParams()
-    const { name, title, discription } = Data[params.id]
+    const { name, title, discription } = CourseData[params.id]
     document.title = name
     return (
         <section className='course-details-section'>

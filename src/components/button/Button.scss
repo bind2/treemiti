@@ -1,0 +1,12 @@
+.btn{
+    min-width: 2rem;
+    min-height: 1rem;
+    background-color: $secondary-color;
+    color: $primary-color;
+    border-radius: .4rem;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}

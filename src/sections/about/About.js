@@ -1,11 +1,11 @@
 import React from 'react'
 // import './About.scss'
 import CourseFeatures from '../../components/course-features/CourseFeatures'
-import ServicesData from '../../ServicesData.json'
+import AboutData from '../../data/AboutData.json'
 
 
 const About = () => {
-  let serviceList = ServicesData.map((data, index) => {
+  let serviceList = AboutData.map((data, index) => {
     return <CourseFeatures key={index} index={index} img={data.img} name={data.name} path={data.path}/>
   })
 

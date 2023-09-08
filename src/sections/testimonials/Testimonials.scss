@@ -1,7 +1,7 @@
 .testimonials-section{
     &>#testimonials{
         border: 1px solid red;
-        padding: 10rem 1.5rem;
+        padding: 10rem 0 5rem 0;
 
         &>h2{
             text-align: center;
@@ -9,6 +9,31 @@
             font-size: 3.5rem;
             font-weight: 400;
             font-family: $primary-font;
+        }
+
+        &>.feedback-container{
+            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            // flex-direction: column;
+            &>.feedback-box{
+                flex: 1;
+                margin: 1.5rem;
+                padding: 2rem;
+                border: 1px solid red;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                &>h3 {
+                    text-align: center;
+                    margin: 2rem 0;
+                    color: $primary-color;
+                    font-family: $secondary-font;
+                    font-weight: 400;
+                    font-size: 2.5rem;
+                }
+            }
         }
     }
 }
