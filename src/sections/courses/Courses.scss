@@ -1,7 +1,6 @@
 .courses-section{
     &>#courses{
-        // border: 1px solid red;
-        padding: 10rem 0 5rem 0;
+        padding: 3rem 0;
 
         &>h2{
             text-align: center;
@@ -13,7 +12,7 @@
 
         &>.flex-container{
             // border: 1px solid red;
-            margin-top: 3rem;
+            margin-top: 2rem;
             display: flex;
             flex-wrap: wrap;
         }
