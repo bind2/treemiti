@@ -8,7 +8,7 @@ const [fname, lname] = props.name.split(" ")
     <li>
       <Link to={`/treemiti/${props.index}#`}>
         <figure>
-          <img src={props.img} alt="" />
+          <img src={props.img} alt="img" />
         </figure>
         
         <h3>{fname} <br/> {lname}</h3>

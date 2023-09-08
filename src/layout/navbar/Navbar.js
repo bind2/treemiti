@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './Navbar.scss'
 import { HashLink as Link } from 'react-router-hash-link'
-import logo from '../../img/treemiti-white-logo.png'
+import logo from '../../logo-img/treemiti-white-logo.png'
 const Navbar = () => {
   useEffect(() => {
     const menuBar = document.querySelector(".menu-bar")
@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="container" id='navbar'>
-        <Link to='/treemiti/#'><img src={logo} alt="" /></Link>
+        <Link to='/treemiti/#'><img src={logo} alt="logo" /></Link>
 
         <ul className='nav-links'>
           <li><Link to='/treemiti/#'>Home</Link></li>
@@ -27,6 +27,8 @@ const Navbar = () => {
           <li><Link to='/treemiti/#guidance'>Guidance</Link></li>
           <li><Link to='/treemiti/#contact'>Contact</Link></li>
         </ul>
+
+        {/* <div>qr</div> */}
 
         <div className="menu-bar">
           <span className='menu-name'>menu</span>
