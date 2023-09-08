@@ -1,5 +1,5 @@
 import React from 'react'
-import './Guidance.scss'
+// import './Guidance.scss'
 
 const Guidance = () => {
   return (

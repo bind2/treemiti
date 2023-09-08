@@ -1,5 +1,5 @@
 import React from 'react'
-import './CourseFeatures.scss'
+// import './CourseFeatures.scss'
 import { HashLink as Link } from 'react-router-hash-link'
 
 const CourseFeatures = (props) => {

@@ -1,6 +1,6 @@
 nav {
     width: 100%;
-    background-color: #871550;
+    background-color: $primary-color;
     position: fixed;
     top: 0;
     left: 0;
@@ -28,7 +28,7 @@ nav {
 
             &>li {
                 &>a {
-                    color: #fff;
+                    color: $white;
                 }
             }
         }
@@ -41,7 +41,7 @@ nav {
             cursor: pointer;
 
             &>.menu-name {
-                color: #fff;
+                color: $white;
                 padding-left: .5rem;
                 text-transform: uppercase;
                 line-height: 3rem;
@@ -63,10 +63,10 @@ nav {
                 &::before {
                     content: "";
                     position: absolute;
-                    background-color: #fff;
+                    background-color: $white;
                     height: .2rem;
                     width: 2rem;
-                    box-shadow: 0 8px 0 #fff;
+                    box-shadow: 0 8px 0 $white;
                     top: .6rem;
                     transition: .3s ease;
                 }
@@ -74,7 +74,7 @@ nav {
                 &::after {
                     content: "";
                     position: absolute;
-                    background-color: #ffffff;
+                    background-color: $white;
                     height: .2rem;
                     width: 2rem;
                     bottom: .6rem;
@@ -85,7 +85,7 @@ nav {
                     &::before {
                         top: 1.4rem;
                         rotate: 45deg;
-                        box-shadow: 0 0 #fff;
+                        box-shadow: 0 0 $white;
                     }
 
                     &::after {
@@ -131,7 +131,7 @@ nav {
                         text-transform: uppercase;
 
                         &:hover {
-                            background-color: #FFC933;
+                            background-color: $secondary-color;
                         }
                     }
                 }
@@ -163,13 +163,13 @@ nav {
                     }
 
                     &>.menu-name{
-                        color: #871550;
+                        color: $primary-color;
                         font-weight: 500;
                     }
 
                     &>.menu-icon{
                         &::before, &::after{
-                            background-color: #871550;
+                            background-color: $primary-color;
                         }
                     }
                 }

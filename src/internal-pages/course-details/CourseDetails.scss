@@ -7,10 +7,10 @@
             // border: 1px solid red;
             padding: 0 1.5rem;
             text-align: center;
-            color: red;
+            color: $red;
             font-size: 3.5rem;
             font-weight: 400;
-            font-family: 'Philosopher', sans-serif;
+            font-family: $primary-font;
             text-transform: uppercase;
         }
 
@@ -32,7 +32,7 @@
 
         &>.carts {
             // border: 1px solid red;
-            background-color: #EEEEEE;
+            background-color: $light-gray;
             margin-top: 5rem;
             padding: 1.5rem 0;
             // width: 100%;
@@ -40,8 +40,8 @@
             &>h3{
                 text-align: center;
                 margin: 2rem 0;
-                color: #871550;
-                font-family: 'Signika', sans-serif;
+                color: $primary-color;
+                font-family: $secondary-font;
                 font-weight: 400;
                 font-size: 2.5rem;
             }
@@ -66,7 +66,7 @@
 
                     &>h6{
                         font-size: 1.6rem;
-                        color: #871550;
+                        color: $primary-color;
                     }
                     
                     &>address{
@@ -99,8 +99,8 @@
             &>h3{
                 text-align: center;
                 margin: 2rem 0;
-                color: #871550;
-                font-family: 'Signika', sans-serif;
+                color: $primary-color;
+                font-family: $secondary-font;
                 font-weight: 400;
                 font-size: 2.5rem;
             }
@@ -116,7 +116,7 @@
                     border-radius: 0 0 1rem 1rem;
                     width: 11rem;
                     height: 18rem;
-                    background-color: #EEEEEE;
+                    background-color: $light-gray;
                     transition: .3s;
 
                     &>a {
@@ -135,11 +135,11 @@
                     }
 
                     &:hover {
-                        background-color: #871550;
+                        background-color: $primary-color;
 
                         &>a {
                             &>h3 {
-                                color: #fff;
+                                color: white;
                             }
                         }
                     }

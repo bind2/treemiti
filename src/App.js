@@ -2,7 +2,7 @@ import React from 'react';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.scss';
 import Navbar from './layout/navbar/Navbar';
-import Main from './layout/Main';
+import Main from './layout/main/Main';
 import Footer from './layout/footer/Footer';
 import Root from './root/Root';
 import CourseDetails from './internal-pages/course-details/CourseDetails';

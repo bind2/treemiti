@@ -1,5 +1,5 @@
 import React from 'react'
-import './Placements.scss'
+// import './Placements.scss'
 
 const Placements = () => {
   return (

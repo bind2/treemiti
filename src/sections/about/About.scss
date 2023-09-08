@@ -1,5 +1,5 @@
 .about-section {
-    background-color: #EEEEEE;
+    background-color: $light-gray;
     &>#about {
         // border: 1px solid red;
         padding: 10rem 0;
@@ -7,10 +7,10 @@
 
         &>h2 {
             text-align: center;
-            color: red;
+            color: $red;
             font-size: 3.5rem;
             font-weight: 400;
-            font-family: 'Philosopher', sans-serif;
+            font-family: $primary-font;
         }
 
         &>article {
@@ -33,7 +33,7 @@
             &>h3 {
                 text-align: center;
                 margin: 2rem 0;
-                color: #871550;
+                color: $primary-color;
                 font-family: 'Signika', sans-serif;
                 font-weight: 400;
                 font-size: 2.5rem;

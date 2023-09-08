@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom'
 
 const Main = () => {
   return (
-    <main style={{paddingTop: '7rem'}}>
+    <main >
         <Outlet/>
     </main>
   )

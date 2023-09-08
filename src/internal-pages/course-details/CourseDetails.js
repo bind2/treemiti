@@ -1,5 +1,5 @@
 import React from 'react'
-import './CourseDetails.scss'
+// import './CourseDetails.scss'
 import CourseCart from '../../components/course-cart/CourseCart'
 import Data from '../../Data.json'
 import { useParams } from 'react-router-dom'

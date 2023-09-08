@@ -1,5 +1,5 @@
 import React from 'react'
-import './CareerGuidance.scss'
+// import './CareerGuidance.scss'
 import ServicesData from '../../ServicesData.json'
 import Data from '../../Data.json'
 import CourseCart from '../../components/course-cart/CourseCart'

@@ -5,10 +5,10 @@
 
         &>h2{
             text-align: center;
-            color: red;
+            color: $red;
             font-size: 3.5rem;
             font-weight: 400;
-            font-family: 'Philosopher', sans-serif;
+            font-family: $primary-font;
         }
 
         &>.flex-container{

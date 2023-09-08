@@ -5,7 +5,7 @@ header{
     background-size: cover;
     &>#header{
         // border: 1px solid red;
-        color: #fff;
+        color: $white;
         height: calc(100vh - 7rem);
         display: flex;
         flex-direction: column;

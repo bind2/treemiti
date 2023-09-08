@@ -1,5 +1,5 @@
 import React from 'react'
-import './About.scss'
+// import './About.scss'
 import CourseFeatures from '../../components/course-features/CourseFeatures'
 import ServicesData from '../../ServicesData.json'
 

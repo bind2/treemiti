@@ -1,5 +1,5 @@
 import React from 'react'
-import './Courses.scss'
+// import './Courses.scss'
 import CourseCart from '../../components/course-cart/CourseCart'
 import Data from '../../Data.json'
 

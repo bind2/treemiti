@@ -1,5 +1,5 @@
 import React from 'react'
-import './CourseCart.scss'
+// import './CourseCart.scss'
 import { HashLink as Link } from 'react-router-hash-link'
 
 const CourseCart = (props) => {

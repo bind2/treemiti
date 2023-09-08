@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './Navbar.scss'
+// import './Navbar.scss'
 import { HashLink as Link } from 'react-router-hash-link'
 import logo from '../../logo-img/treemiti-white-logo.png'
 const Navbar = () => {
