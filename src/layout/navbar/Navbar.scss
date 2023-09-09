@@ -1,5 +1,5 @@
 nav {
-    border: 1px solid red;
+    // border: 1px solid red;
     width: 100%;
     background-color: $primary-color;
     position: fixed;
@@ -8,7 +8,7 @@ nav {
     z-index: 11;
 
     &>#navbar {
-        border: 1px solid red;
+        // border: 1px solid red;
         height: 7rem;
         display: flex;
         justify-content: space-between;
@@ -21,7 +21,7 @@ nav {
         }
 
         &>.nav-links {
-            border: 1px solid blue;
+            // border: 1px solid blue;
             position: relative;
             list-style: none;
             display: flex;
@@ -40,7 +40,7 @@ nav {
         }
 
         &>.menu-bar {
-            border: 1px solid red;
+            // border: 1px solid red;
             display: none;
             background-color: #2608179a;
             height: 3.4rem;
@@ -144,13 +144,11 @@ nav {
                 &.nav-links-active {
                     width: 20rem;
 
-
                     &>div{
                         // border: 1px solid red;
                         display: block;
                         height: 100%;
                         width: 100%;
-                        // padding: 2rem;
                         padding-left: 2rem;
                         padding-bottom: 4rem;
                         display: flex;
