@@ -1,9 +1,10 @@
 .placements-section {
     background-color: $light-gray;
+    border: 1px solid red;
 
     &>#placements {
-        // border: 1px solid red;
-        padding: 3rem 1.5rem;
+        border: 1px solid red;
+        padding: 3rem 0;
 
         &>h2 {
             text-align: center;
@@ -11,18 +12,20 @@
             font-size: 3.5rem;
             font-weight: 400;
             font-family: $primary-font;
+            // margin: 0 1rem;
+            border: 1px solid red;
         }
 
         &>.carousel-container {
             padding: 0 2rem;
-            // border: 1px solid red;
+            border: 1px solid red;
             margin-top: 2rem;
             display: flex;
             justify-content: center;
             align-items: center;
 
             &>.wrapper {
-                // border: 1px solid red;
+                border: 1px solid red;
                 max-width: 1125px;
                 width: 100%;
                 position: relative;
@@ -51,7 +54,7 @@
                 }
 
                 &>.carousel {
-                    // border: 1px solid red;
+                    border: 1px solid red;
                     display: grid;
                     grid-auto-flow: column;
                     grid-auto-columns: calc((100% / 4) - 15px);
@@ -159,9 +162,12 @@
         }
     }
 }
-@media (max-width:525px){
+@media (max-width:425px){
     .placements-section{
         &>#placements{
+            &>h2{
+                font-size: 3rem;
+            }
             &>.carousel-container{
                 &>.wrapper{
                     &>.carousel{

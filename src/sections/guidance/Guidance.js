@@ -27,7 +27,7 @@ const Guidance = () => {
                 <input type="text" placeholder='Your name' required/>
               </div>
 
-              <div>
+              <div className='box'>
                 <div className='number-field'>
                   <input type="text" placeholder='Mobile number' required/>
                 </div>
@@ -36,7 +36,7 @@ const Guidance = () => {
                 </div>
               </div>
 
-              <div>
+              <div className='box'>
                 <div className='number-field'>
                   <input type="text" placeholder='Your Name' />
                 </div>

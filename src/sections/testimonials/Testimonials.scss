@@ -1,4 +1,5 @@
 .testimonials-section{
+    border: 1px solid red;
     &>#testimonials{
         border: 1px solid red;
         padding: 3rem 0;
@@ -9,6 +10,8 @@
             font-size: 3.5rem;
             font-weight: 400;
             font-family: $primary-font;
+            // padding: 0 1rem;
+            border: 1px solid red;
         }
 
         &>.feedback-container{
@@ -16,12 +19,11 @@
             border: 1px solid red;
             display: flex;
             justify-content: center;
-            // flex-direction: column;
             &>.feedback-box{
-                width: 50%;
+                min-width: 100px;
                 margin: 1.5rem;
                 padding: 2rem;
-                border: 1px solid blue;
+                border: 1px solid red;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -42,7 +44,7 @@
 
 @media (max-width: 768px){
     .testimonials-section{
-        &>#testimonial{
+        &>#testimonials{
             &>.feedback-container{
                 flex-direction: column;
                 &>.feedback-box{
@@ -52,3 +54,14 @@
         }
     }
 }
+
+@media (max-width: 425px){
+    .testimonials-section{
+        &>#testimonials{
+            &>h2{
+                font-size: 3rem;
+            }
+        }
+    }
+}
+

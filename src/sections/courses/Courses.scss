@@ -1,5 +1,7 @@
 .courses-section{
+    border: 1px solid red;
     &>#courses{
+        border: 1px solid red;
         padding: 3rem 0;
 
         &>h2{
@@ -8,13 +10,25 @@
             font-size: 3.5rem;
             font-weight: 400;
             font-family: $primary-font;
+            border: 1px solid red;
         }
 
         &>.flex-container{
-            // border: 1px solid red;
+            border: 1px solid red;
             margin-top: 2rem;
             display: flex;
             flex-wrap: wrap;
+        }
+    }
+}
+
+
+@media (max-width: 425px){
+    .courses-section{
+        &>#courses{
+            &>h2{
+                font-size: 3rem;
+            }
         }
     }
 }

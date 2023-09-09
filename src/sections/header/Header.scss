@@ -3,8 +3,10 @@ header{
     background: url(../../../public/images/home-img/treemiti-home.jpg);
     background-position: center;
     background-size: cover;
+    border: 1px solid red;
+
     &>#header{
-        // border: 1px solid red;
+        border: 1px solid red;
         color: $white;
         height: calc(100vh - 7rem);
         display: flex;
