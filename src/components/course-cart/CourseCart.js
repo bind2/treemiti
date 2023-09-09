@@ -7,7 +7,7 @@ const CourseCart = (props) => {
         <div className='course-cart'>
             <Link to={`/treemiti/courses/${props.index}#`}>
                 <figure>
-                    <img src={props.img} alt="" />
+                    <img src={props.img} alt="img" />
                 </figure>
                 <h3>{props.name}</h3>
             </Link>
