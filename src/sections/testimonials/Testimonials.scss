@@ -18,10 +18,10 @@
             justify-content: center;
             // flex-direction: column;
             &>.feedback-box{
-                flex: 1;
+                width: 50%;
                 margin: 1.5rem;
                 padding: 2rem;
-                border: 1px solid red;
+                border: 1px solid blue;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -33,6 +33,20 @@
                     font-family: $secondary-font;
                     font-weight: 400;
                     font-size: 2.5rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px){
+    .testimonials-section{
+        &>#testimonial{
+            &>.feedback-container{
+                flex-direction: column;
+                &>.feedback-box{
+                    width: 100%;
                 }
             }
         }
