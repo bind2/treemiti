@@ -1,3 +1,5 @@
+@import '../../sass/breakpoints.scss';
+
 .contact-section{
     background-color: $light-gray;
     // border: 1px solid red;
@@ -14,7 +16,9 @@
             font-family: $primary-font;
             padding: 0 1.5rem;
 
-            
+            @include largeMobile{
+                font-size: 3rem;
+            } 
         }
 
         &>iframe{
@@ -25,18 +29,6 @@
             height: 40rem;
             // border: 1px solid red;
 
-        }
-    }
-}
-
-
-
-@media (max-width: 425px){
-    .contact-section{
-        &>#contact{
-            &>h2{
-                font-size: 3rem;
-            }
         }
     }
 }

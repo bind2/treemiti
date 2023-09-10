@@ -1,3 +1,5 @@
+@import '../../sass/breakpoints.scss';
+
 .course-details-section {
     &>#course-details {
         // border: 1px solid red;
@@ -12,6 +14,14 @@
             font-weight: 400;
             font-family: $primary-font;
             text-transform: uppercase;
+
+            @include largeMobile{
+                font-size: 3rem;
+            }
+
+            @include smallMobile{
+                font-size: 2.5rem;
+            }
         }
 
         &>article{
@@ -23,10 +33,6 @@
                 // font-family: 'Nunito Sans', sans-serif;
                 font-size: 1.4rem;
                 line-height: 2.4rem;
-                // font-weight: 300;
-                // &>strong{
-                //     font-weight: 600;
-                // }
             }
         }
 
@@ -35,7 +41,6 @@
             background-color: $light-gray;
             margin-top: 5rem;
             padding: 1.5rem 0;
-            // width: 100%;
 
             &>h3{
                 text-align: center;
@@ -51,12 +56,11 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
-                // align-items: center;
 
                 &>.cart-scope{
+                    // border: 1px solid red;
                     width: 30rem;
                     min-height: 20rem;
-                    // border: 1px solid red;
                     flex: 1 1 auto;
                     margin: 1.5rem;
                     padding: 2rem;
@@ -94,7 +98,6 @@
         &>.other-courses {
             // border: 1px solid red;
             margin-top: 5rem;
-
 
             &>h3{
                 text-align: center;
@@ -144,18 +147,6 @@
                         }
                     }
                 }
-            }
-        }
-    }
-}
-
-
-
-@media (max-width: 425px){
-    .course-details-section {
-        &>#course-details{
-            &>h2{
-                font-size: 3rem;
             }
         }
     }

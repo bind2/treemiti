@@ -1,3 +1,5 @@
+@import '../../sass/breakpoints.scss';
+
 .career-guidance-section {
     // border: 1px solid red;
     &>#career-guidance {
@@ -11,6 +13,14 @@
             font-weight: 400;
             font-family: $primary-font;
             // border: 1px solid red;
+
+            @include largeMobile{
+                font-size: 3rem;
+            }
+
+            @include smallMobile{
+                font-size: 2.5rem;
+            }
         }
 
         &>.features-list {
@@ -82,16 +92,22 @@
             font-family: $primary-font;
         }
 
-
         &>.about-guidance{
-            margin: 2rem 0;
             // border: 1px solid red;
+            margin: 2rem 0;
             display: flex;
+            @include tablet{
+                flex-direction: column;
+            }
             &>figure{
+                // border: 1px solid red;
                 margin: 0 1.5rem;
                 min-width: 30rem;
                 height: 30rem;
-                // border: 1px solid red;
+
+                @include tablet{
+                    margin: 0 auto;
+                }
                 
                 &>img{
                     width: 100%;
@@ -105,6 +121,10 @@
                 // border: 1px solid red;
                 min-height: 30rem;
                 min-width: 30rem;
+
+                @include tablet{
+                    margin-top: 1rem;
+                }
 
                 &>p{
                     // border: 1px solid red;
@@ -166,44 +186,6 @@
                         }
                     }
                 }
-            }
-        }
-    }
-}
-
-
-@media (max-width: 768px){
-    .career-guidance-section{
-        &>#career-guidance{
-            &>.about-guidance{
-                flex-direction: column;
-
-                &>figure{
-                    // border: 1px solid red;
-                    margin: 0 auto;
-    
-                    &>img{
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                    }
-                }
-
-                &>article{
-                    margin-top: 1rem;
-                }
-            }
-        }
-    }
-}
-
-
-
-@media (max-width: 425px){
-    .career-guidance-section{
-        &>#career-guidance{
-            &>h2{
-                font-size: 3rem;
             }
         }
     }
