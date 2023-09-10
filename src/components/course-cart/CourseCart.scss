@@ -1,11 +1,10 @@
+@import '../../sass/breakpoints.scss';
+
 .course-cart {
     // border: 1px solid red;
     background-color: $light-gray;
-    width: 25rem;
-    height: 25rem;
-    margin: 1.5rem;
-    flex: 1 1 auto;
-    position: relative;
+    padding: 2rem 1rem;
+    // position: relative;
 
     &>a {
         // border: 1px solid red;
@@ -24,6 +23,11 @@
             height: 12.5rem;
             border-radius: 50%;
             // border: 1px solid red;
+
+            @include largeMobile{
+                width: 10rem;
+                height: 10rem;
+            }
 
             &>img {
                 width: 100%;

@@ -3,7 +3,6 @@ import React from 'react'
 import CourseFeatures from '../../components/course-features/CourseFeatures'
 import AboutData from '../../data/AboutData.json'
 
-
 const About = () => {
   let serviceList = AboutData.map((data, index) => {
     return <CourseFeatures key={index} index={index} img={data.img} name={data.name} path={data.path}/>

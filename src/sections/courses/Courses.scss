@@ -21,9 +21,21 @@
 
         &>.flex-container{
             // border: 1px solid red;
-            margin-top: 2rem;
-            display: flex;
-            flex-wrap: wrap;
+            margin-top: 1rem;
+            padding: 1.5rem;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 3rem;
+
+            @include laptop{
+                grid-template-columns: repeat(3, 1fr);
+            }
+            @include tablet{
+                grid-template-columns: repeat(2, 1fr);
+            }
+            @include largeMobile{
+                gap: 2rem; 
+            }
         }
     }
 }

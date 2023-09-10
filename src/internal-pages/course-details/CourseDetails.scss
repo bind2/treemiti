@@ -15,91 +15,34 @@
             font-family: $primary-font;
             text-transform: uppercase;
 
-            @include largeMobile{
+            @include largeMobile {
                 font-size: 3rem;
             }
 
-            @include smallMobile{
+            @include smallMobile {
                 font-size: 2.5rem;
             }
         }
 
-        &>article{
+        &>article {
             // border: 1px solid red;
             margin-top: 2rem;
             padding: 1.5rem;
-            
-            &>p{
-                // font-family: 'Nunito Sans', sans-serif;
+
+            &>p {
                 font-size: 1.4rem;
                 line-height: 2.4rem;
+                // font-weight: 300;
             }
         }
 
         &>.carts {
             // border: 1px solid red;
             background-color: $light-gray;
-            margin-top: 5rem;
+            // margin-top: 5rem;
             padding: 1.5rem 0;
 
-            &>h3{
-                text-align: center;
-                margin: 2rem 0;
-                color: $primary-color;
-                font-family: $secondary-font;
-                font-weight: 400;
-                font-size: 2.5rem;
-            }
-
-            &>div{
-                // border: 1px solid red;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-
-                &>.cart-scope{
-                    // border: 1px solid red;
-                    width: 30rem;
-                    min-height: 20rem;
-                    flex: 1 1 auto;
-                    margin: 1.5rem;
-                    padding: 2rem;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-
-                    &>h6{
-                        font-size: 1.6rem;
-                        color: $primary-color;
-                    }
-                    
-                    &>address{
-                        // border: 1px solid red;
-                        margin-top: 1rem;
-                        text-align: center;
-                        &>p{
-                            font-style: normal;
-                            line-height: 4rem;
-
-                            &>a{
-                                color: #4582b7;
-
-                                &:hover{
-                                    color: #2f6391;
-                                    text-decoration: underline;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        &>.other-courses {
-            // border: 1px solid red;
-            margin-top: 5rem;
-
-            &>h3{
+            &>h3 {
                 text-align: center;
                 margin: 2rem 0;
                 color: $primary-color;
@@ -112,42 +55,48 @@
                 // border: 1px solid red;
                 display: flex;
                 flex-wrap: wrap;
+                justify-content: center;
 
-                &>.course-cart {
+                &>.cart-scope {
                     // border: 1px solid red;
-                    padding: 0 1rem;
-                    border-radius: 0 0 1rem 1rem;
-                    width: 11rem;
-                    height: 18rem;
-                    background-color: $light-gray;
-                    transition: .3s;
+                    width: 30rem;
+                    min-height: 10rem;
+                    flex: 1 1 auto;
+                    margin: 1.5rem;
+                    // padding: 2rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
 
-                    &>a {
-                        &>figure {
-                            width: 9rem;
-                            height: 9rem;
-                            // border: 1px solid red;
-                        }
-
-                        &>h3 {
-                            font-size: 1.5rem;
-                            text-align: center;
-                            // border: 1px solid red;
-                            font-weight: 400;
-                        }
+                    &>h6 {
+                        font-size: 1.6rem;
+                        color: $primary-color;
                     }
 
-                    &:hover {
-                        background-color: $primary-color;
+                    &>address {
+                        // border: 1px solid red;
+                        margin-top: 1rem;
+                        text-align: center;
 
-                        &>a {
-                            &>h3 {
-                                color: white;
+                        &>p {
+                            font-style: normal;
+                            font-size: 1.4rem;
+                            // font-weight: 300;
+                            line-height: 2.4rem;
+
+                            &>a {
+                                color: #4582b7;
+
+                                &:hover {
+                                    color: #2f6391;
+                                    text-decoration: underline;
+                                }
                             }
                         }
                     }
                 }
             }
         }
+        @include otherCoursesStyle
     }
 }
