@@ -1,12 +1,12 @@
 .contact-section{
     background-color: $light-gray;
-    border: 1px solid red;
+    // border: 1px solid red;
     &>#contact{
-        border: 1px solid red;
+        // border: 1px solid red;
         padding: 3rem 0;
 
         &>h2{
-            border: 1px solid red;
+            // border: 1px solid red;
             text-align: center;
             color: $red;
             font-size: 3.5rem;
@@ -18,7 +18,7 @@
         }
 
         &>iframe{
-            border: 1px solid red;
+            // border: 1px solid red;
             // padding: 0 1.5rem;
             margin-top: 3rem;
             width: 100%;

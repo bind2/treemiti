@@ -1,7 +1,7 @@
 .about-section {
     background-color: $light-gray;
     &>#about {
-        border: 1px solid red;
+        // border: 1px solid red;
         padding: 3rem 0;
 
 
@@ -11,24 +11,24 @@
             font-size: 3.5rem;
             font-weight: 400;
             font-family: $primary-font;
-            border: 1px solid red;
+            // border: 1px solid red;
         }
 
         &>article {
             max-width: 1000px;
-            border: 1px solid red;
+            // border: 1px solid red;
             text-align: center;
             margin: 3rem auto;
             padding: 0 1.5rem;
 
             &>p{
-                border: 1px solid red;
+                // border: 1px solid red;
                 font-size: 1.4rem;
             }
         }
 
         &>.course-features {
-            border: 1px solid red;
+            // border: 1px solid red;
             max-width: 1000px;
             margin: 0 auto;
 

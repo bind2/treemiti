@@ -1,7 +1,7 @@
 .career-guidance-section {
-    border: 1px solid red;
+    // border: 1px solid red;
     &>#career-guidance {
-        border: 1px solid red;
+        // border: 1px solid red;
         padding: 2rem 0;
 
         &>h2 {
@@ -10,11 +10,11 @@
             font-size: 3.5rem;
             font-weight: 400;
             font-family: $primary-font;
-            border: 1px solid red;
+            // border: 1px solid red;
         }
 
         &>.features-list {
-            border: 1px solid red;
+            // border: 1px solid red;
             padding: 0 1.5rem;
             border-bottom: 1px solid #c3c3c3;
 
@@ -34,7 +34,7 @@
                         width: 5rem;
                         height: 5rem;
                         border-radius: 50%;
-                        border: 1px solid red;
+                        // border: 1px solid red;
 
                         &>img {
                             width: 100%;
@@ -46,7 +46,7 @@
                     &>h3 {
                         font-size: 1.4rem;
                         font-weight: 500;
-                        border: 1px solid red;
+                        // border: 1px solid red;
                         color: #008bb9;
                     }
 
@@ -72,7 +72,7 @@
         }
 
         &>h3{
-            border: 1px solid red;
+            // border: 1px solid red;
             text-align: center;
             // margin: 3.5rem 0 2rem 0;
             margin-top: 3.5rem;
@@ -85,13 +85,13 @@
 
         &>.about-guidance{
             margin: 2rem 0;
-            border: 1px solid red;
+            // border: 1px solid red;
             display: flex;
             &>figure{
                 margin: 0 1.5rem;
                 min-width: 30rem;
                 height: 30rem;
-                border: 1px solid red;
+                // border: 1px solid red;
                 
                 &>img{
                     width: 100%;
@@ -102,12 +102,12 @@
 
             &>article{
                 padding: 0 1.5rem;
-                border: 1px solid red;
+                // border: 1px solid red;
                 min-height: 30rem;
                 min-width: 30rem;
 
                 &>p{
-                    border: 1px solid red;
+                    // border: 1px solid red;
                     font-size: 1.4rem;
                     line-height: 2.4rem;
                 }  
@@ -115,7 +115,7 @@
         }
 
         &>.other-courses {
-            border: 1px solid red;
+            // border: 1px solid red;
             padding: 2rem 0;
 
             &>h3 {
@@ -128,12 +128,12 @@
             }
 
             &>div {
-                border: 1px solid red;
+                // border: 1px solid red;
                 display: flex;
                 flex-wrap: wrap;
 
                 &>.course-cart {
-                    border: 1px solid red;
+                    // border: 1px solid red;
                     padding: 0 1rem;
                     border-radius: 0 0 1rem 1rem;
                     width: 11rem;
@@ -145,7 +145,7 @@
                         &>figure {
                             width: 9rem;
                             height: 9rem;
-                            border: 1px solid red;
+                            // border: 1px solid red;
                         }
 
                         &>h3 {

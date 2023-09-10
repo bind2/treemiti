@@ -148,3 +148,15 @@
         }
     }
 }
+
+
+
+@media (max-width: 425px){
+    .course-details-section {
+        &>#course-details{
+            &>h2{
+                font-size: 3rem;
+            }
+        }
+    }
+}

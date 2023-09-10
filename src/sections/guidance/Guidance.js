@@ -17,37 +17,50 @@ const Guidance = () => {
               <br />
               <p>If you think the same way as we think contact us for career guidance. <strong>World of unleash opportunities are waiting for you</strong></p>
             </article>
-            <Button name='Click for more information' to='/'/>
+            <Button name='Click for more information' to='/' />
           </div>
           <div>
             <h3>Guidance Registration Form</h3>
 
-            <form action="">
+            <form>
               <div className='name-field'>
-                <input type="text" placeholder='Your name' required/>
+                <input type="text" placeholder='Your Name' required />
               </div>
 
-              <div className='box'>
-                <div className='number-field'>
-                  <input type="text" placeholder='Mobile number' required/>
+              <div className='field-box'>
+                <div >
+                  <input type="text" placeholder='Mobile Number' required />
                 </div>
-                <div className='email-field'>
-                  <input type="email" placeholder='Email id' required/>
-                </div>
-              </div>
-
-              <div className='box'>
-                <div className='number-field'>
-                  <input type="text" placeholder='Your Name' />
-                </div>
-                <div className='email-field'>
-                  <input type="text" placeholder='Your Name' />
+                <div >
+                  <input type="email" placeholder='Email id' required />
                 </div>
               </div>
 
-              <textarea name="" id="" cols="30" rows="7" placeholder='Comment your interest and / or field for which guidance is needed'></textarea>
+              <div className='field-box'>
+                <div >
+                  <select>
+                    <option value="">Select Education</option>
+                    <option value="HSC">HSC</option>
+                    <option value="SSC">SSC</option>
+                    <option value="Graduate">Graduate</option>
+                    <option value="Post Gradute">Post Graduate</option>
+                    <option value="Doctorate">Doctorate</option>
+                  </select>
+                </div>
+                <div >
+                  <select>
+                    <option value="">Working Status</option>
+                    <option value="Unemployed">Unemployed</option>
+                    <option value="In Service">In Service</option>
+                    <option value="Self Employed">Self Employed</option>
+                    <option value="Business Owner">Business Owner</option>
+                  </select>
+                </div>
+              </div>
 
-              <Button type='submit' name='Submit Registration'/>
+              <textarea cols="30" rows="7" placeholder='Comment your interest and / or field for which guidance is needed'></textarea>
+
+              <Button type='submit' name='Submit Registration' />
             </form>
           </div>
         </div>
