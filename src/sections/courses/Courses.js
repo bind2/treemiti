@@ -7,12 +7,8 @@ import CourseData from '../../data/CourseData'
 const Courses = () => {
 
     const cartList = CourseData.map((data, index) => {
-        return <CourseCart
-            key={index}
-            index={index}
-            img={data.img}
-            name={data.name}
-            path={data.path}
+        const {img, name, path} = data
+        return <CourseCart key={index} index={index} img={img} name={name} path={path}
         />
     })
 
