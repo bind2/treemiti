@@ -5,7 +5,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 const CourseCart = (props) => {
     return (
         <div className='course-cart'>
-            <Link to={`/treemiti/courses/${props.index}#`}>
+            <Link to={`/treemiti/course/${props.index}#`}>
                 <figure>
                     <img src={props.img} alt="img" />
                 </figure>

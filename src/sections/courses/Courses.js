@@ -1,7 +1,7 @@
 import React from 'react'
 // import './Courses.scss'
 import CourseCart from '../../components/course-cart/CourseCart'
-import CourseData from '../../data/CourseData.json'
+import CourseData from '../../data/CourseData'
 
 
 const Courses = () => {

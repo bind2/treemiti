@@ -7,6 +7,7 @@ import Footer from './layout/footer/Footer';
 import Root from './root/Root';
 import CourseDetails from './internal-pages/course-details/CourseDetails';
 import CareerGuidance from './internal-pages/career-guidance/CareerGuidance';
+import ErrorPage from './error-page/ErrorPage';
 
 function App() {
   
@@ -18,13 +19,14 @@ function App() {
         <Main/>
         <Footer/>
       </React.Fragment>,
+      errorElement: <ErrorPage/>,
       children:[
         {
           path: '/treemiti',
           element: <Root/>
         },
         {
-          path: '/treemiti/courses/:id',
+          path: '/treemiti/course/:id',
           element: <CourseDetails/>
         },
         {

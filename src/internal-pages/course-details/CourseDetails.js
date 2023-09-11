@@ -12,12 +12,13 @@ const CourseDetails = () => {
         return <CourseCart
             key={index}
             index={index}
-            img={data.img1}
+            img={data.img}
             name={data.name}
             path={data.path}
         />
     })
     const params = useParams()
+    console.log(params)
     const { name, title, discription } = CourseData[params.id]
     document.title = name
     return (

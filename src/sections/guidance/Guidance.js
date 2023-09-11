@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../../components/button/Button'
 // import './Guidance.scss'
+import { HashLink as Link } from 'react-router-hash-link'
 
 const Guidance = () => {
   return (
@@ -17,7 +18,7 @@ const Guidance = () => {
               <br />
               <p>If you think the same way as we think contact us for career guidance. <strong>World of unleash opportunities are waiting for you</strong></p>
             </article>
-            <Button name='Click for more information' to='/' />
+            <Link to='/treemiti/#about'><Button name='Click for more information'/></Link>
           </div>
           <div>
             <h3>Guidance Registration Form</h3>

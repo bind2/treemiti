@@ -13,19 +13,19 @@
             font-weight: 400;
             font-family: $primary-font;
             // margin: 0 1rem;
-            border: 1px solid red;
+            // border: 1px solid red;
         }
 
         &>.carousel-container {
             padding: 0 2rem;
-            border: 1px solid red;
+            // border: 1px solid red;
             margin-top: 2rem;
             display: flex;
             justify-content: center;
             align-items: center;
 
             &>.wrapper {
-                border: 1px solid red;
+                // border: 1px solid red;
                 max-width: 1125px;
                 width: 100%;
                 position: relative;
@@ -54,7 +54,7 @@
                 }
 
                 &>.carousel {
-                    border: 1px solid red;
+                    // border: 1px solid red;
                     display: grid;
                     grid-auto-flow: column;
                     grid-auto-columns: calc((100% / 4) - 15px);

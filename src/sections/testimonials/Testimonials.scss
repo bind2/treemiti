@@ -13,7 +13,7 @@
             font-weight: 400;
             font-family: $primary-font;
             // padding: 0 1rem;
-            border: 1px solid red;
+            // border: 1px solid red;
 
             @include largeMobile{
                 font-size: 3rem;
@@ -22,13 +22,13 @@
 
         &>.feedback-container{
             padding-top: 2rem;
-            border: 1px solid red;
+            // border: 1px solid red;
             display: flex;
             justify-content: center;
             &>.feedback-box{
                 // width: 100%;
                 margin: 1.5rem;
-                padding: 2rem;
+                padding: 1rem;
                 border: 1px solid red;
                 display: flex;
                 flex-direction: column;

@@ -11,7 +11,8 @@ const CareerGuidance = () => {
   document.title = name
 
   let serviceList = AboutData.map((data, index) => {
-    return <li key={index}><Link to={`/treemiti/${index}#`}><figure><img src={data.img} alt="" /></figure><h3>{data.name}</h3></Link></li>
+    const [fname, lname] = data.name.split(" ")
+    return <li key={index}><Link to={`/treemiti/${index}#`}><figure><img src={data.img} alt="" /></figure><h3>{fname}<br/>{lname}</h3></Link></li>
   })
 
   const cartList = CourseData.map((data, index) => {

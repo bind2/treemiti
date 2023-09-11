@@ -1,15 +1,13 @@
 [
     {
         "img": "./images/courses-img/graphic-design.png",
-        "img1": "../images/courses-img/graphic-design.png",
         "name": "Graphic Designing",
         "path": "Graphic-Designing",
         "title": "GRAPHICS DESIGNING COURSES",
-        "discription": "<p>A <strong>Graphic Designer</strong> is responsible for creating design solutions that have a high visual impact. The role involves listening to clients and understanding their needs before making design decisions.</p><br/> <p>Their designs are required for a huge variety of products and activities, such as websites, advertising, books, magazines, posters, computer games, product packaging, exhibitions and displays, corporate communications and corporate identity e.g. giving organizations a visual 'brand' etc.</p><br/> <p>A graphic designer works to a brief agreed with the client, creative director or account manager. They develop creative ideas and concepts, choosing the appropriate media and style to meet the client's objectives.</p><br/> <p>The work demands creative flair, up-to-date knowledge of industry software and a professional approach to time, costs and deadlines.</p><br/> <p>Graphic Designer salary in India ranges between <strong>₹ 1.1 Lakhs to ₹ 6.5 Lakhs</strong> with an average annual salary of <strong>₹ 3.0 Lakhs.</strong> Salary estimates are based on 18.8k salaries received from Graphic Designers. <strong>Source : Ambitionbox,</strong> Updated on : June, 2022</p>"
+        "discription": "<p>A <strong>Graphic Designer</strong> is responsible for creating design solutions that have a high visual impact. The role involves listening to clients and understanding their needs before making design decisions.</p><br/> <p>Their designs are required for a huge variety of products and activities, such as websites, advertising, books, magazines, posters, computer games, product packaging, exhibitions and displays, corporate communications and corporate identity e.g. giving organizations a visual 'brand' etc.</p><br/> <p>A graphic designer works to a brief agreed with the client, creative director or account manager. They develop creative ideas and concepts, choosing the appropriate media and style to meet the client's objectives.</p><br/> <p>The work demands creative flair, up-to-date knowledge of industry software and a professional approach to time, costs and deadlines.</p><br/> <p>Graphic Designer salary in India ranges between <strong>₹ 1.1 Lakhs to ₹ 6.5 Lakhs</strong> with an average annual salary of <strong>₹ 3.0 Lakhs.</strong> Salary estimates are based on 18.8k salaries received from Graphic Designers. <strong>Source : Ambitionbox,</strong> Updated on : June, 2022</p>" 
     },
     {
         "img": "./images/courses-img/ui-ux-design.png",
-        "img1": "../images/courses-img/ui-ux-design.png",
         "name": "UI UX Designing",
         "path": "UI-UX-Designing",
         "title": "UI UX DESIGNING COURSES",
@@ -17,7 +15,6 @@
     },
     {
         "img": "./images/courses-img/web-design.png",
-        "img1": "../images/courses-img/web-design.png",
         "name": "Web Designing",
         "path": "Web-Designing",
         "title": "WEB DESIGNING / FRONT-END DEVELOPMENT COURSES",
@@ -25,7 +22,6 @@
     },
     {
         "img": "./images/courses-img/web-development.png",
-        "img1": "../images/courses-img/web-development.png",
         "name": "Web Development",
         "path": "Web-Development",
         "title": "WEB DEVELOPMENT COURSE",
@@ -33,7 +29,6 @@
     },
     {
         "img": "./images/courses-img/digital-marketing.png",
-        "img1": "../images/courses-img/digital-marketing.png",
         "name": "Digital Marketing",
         "path": "Digital-Marketing",
         "title": "DIGITAL MARKETING COURSE",
@@ -41,7 +36,6 @@
     },
     {
         "img": "./images/courses-img/application-development.png",
-        "img1": "../images/courses-img/application-development.png",
         "name": "Application Development",
         "path": "Application-Development",
         "title": "APPLICATION DEVELOPMENT COURSE",
@@ -49,15 +43,13 @@
     },
     {
         "img": "./images/courses-img/data-science.png",
-        "img1": "../images/courses-img/data-science.png",
         "name": "AI ML Data Science",
-        "path": "AI-ML-Data Science",
+        "path": "AI-ML-Data-Science",
         "title": "AI ML DATA SCIENCE COURSE",
         "discription": "<p><strong>Data science</strong> is the study of data: how it's collected, how it's used, and how it can be turned into knowledge. It's a scientific way to understand calculation on the basis of various data collection. Data science helps us find patterns and insights in data, and it can be used to make better decisions in business and our personal lives.</p><br/><p><strong>Data Science</strong> Expert use coding and other computer programming tactics to automate data collection and storage tasks. They may work closely with company departments or even create a system for storing collected information within their databases. Undertaking <strong>data collection, preprocessing and analysis.</strong> Building models to address business problems. Presenting information using data visualization techniques.</p><br/><p>Data scientists need to be able to use advanced math and statistics techniques in order to make accurate predictions and insights from data. Without these skills, data scientists would be limited to working with data that is easy to understand and analyze.</p><br/><p>Data Scientist salary in India ranges between <strong>₹ 4.5 Lakhs to ₹ 25.0 Lakhs</strong> with an average annual salary of <strong>₹ 11.0 Lakhs.</strong> Salary estimates are based on 13.8k salaries received from Data Scientists. <strong>Source : Ambitionbox,</strong> Updated on : June, 2022</p>"
     },
     {
         "img": "./images/courses-img/devops-specialist.png",
-        "img1": "../images/courses-img/devops-specialist.png",
         "name": "Dev-ops Specialist",
         "path": "Dev-ops-Specialist",
         "title": "DEV-OPS SPECIALIST COURSE",
