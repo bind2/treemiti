@@ -15,7 +15,7 @@ const Header = () => {
  })
   return (
     <header>
-      <Particle />
+      {/* <Particle /> */}
       <div className="container" id='header'>
         <h1>Creating</h1>
         <h1 className='type-effect'>{typeEffect} <span style={{color: '#fff'}}><Cursor/></span></h1>

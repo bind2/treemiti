@@ -59,7 +59,7 @@ const Guidance = () => {
                 </div>
               </div>
 
-              <textarea cols="30" rows="7" placeholder='Comment your interest and / or field for which guidance is needed'></textarea>
+              <textarea cols="30" rows="3" placeholder='Comment your interest and / or field for which guidance is needed'></textarea>
 
               <Button type='submit' name='Submit Registration' />
             </form>

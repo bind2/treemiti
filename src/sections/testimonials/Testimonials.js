@@ -15,8 +15,7 @@ const Testimonials = () => {
               <div className='feedback-box'>
                 <h3>Employers Feedback</h3>
               </div>
-            </div>
-            
+            </div>            
         </div>
     </section>
   )
