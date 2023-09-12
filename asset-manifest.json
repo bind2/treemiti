@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/treemiti/static/css/main.bf8bb58a.css",
-    "main.js": "/treemiti/static/js/main.98e26e88.js",
+    "main.css": "/treemiti/static/css/main.ea09de6e.css",
+    "main.js": "/treemiti/static/js/main.1a06686c.js",
     "static/js/787.87bcd282.chunk.js": "/treemiti/static/js/787.87bcd282.chunk.js",
     "static/media/pexels-sindre-fs-1040881.jpg": "/treemiti/static/media/pexels-sindre-fs-1040881.0253d869e2aa5f34b911.jpg",
     "static/media/treemiti-home.jpg": "/treemiti/static/media/treemiti-home.1dc3cbb7dfa6272f94fe.jpg",
@@ -9,12 +9,12 @@
     "static/media/Treemiti-Informatics.jpg": "/treemiti/static/media/Treemiti-Informatics.1f89dea930d90390abb0.jpg",
     "static/media/treemiti-white-logo.png": "/treemiti/static/media/treemiti-white-logo.3e80de3e12f04f165f1b.png",
     "index.html": "/treemiti/index.html",
-    "main.bf8bb58a.css.map": "/treemiti/static/css/main.bf8bb58a.css.map",
-    "main.98e26e88.js.map": "/treemiti/static/js/main.98e26e88.js.map",
+    "main.ea09de6e.css.map": "/treemiti/static/css/main.ea09de6e.css.map",
+    "main.1a06686c.js.map": "/treemiti/static/js/main.1a06686c.js.map",
     "787.87bcd282.chunk.js.map": "/treemiti/static/js/787.87bcd282.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf8bb58a.css",
-    "static/js/main.98e26e88.js"
+    "static/css/main.ea09de6e.css",
+    "static/js/main.1a06686c.js"
   ]
 }
