@@ -30,8 +30,8 @@ const Navbar = () => {
           </div>
         </ul>
 
+        {/* <div className='qr-code'>qr</div> */}
 
-        {/* <div>qr</div> */}
 
         <div className={state.menu ? "menu-bar" : "menu-bar menu-bar-active"} onClick={showHide}>
           <span className='menu-name'>menu</span>

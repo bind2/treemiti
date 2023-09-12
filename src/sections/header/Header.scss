@@ -57,6 +57,7 @@ header{
             font-family: $primary-font;
             text-transform: uppercase;
             line-height: 2.4rem;
+            user-select: none;
             text-align: center;
 
             @include largeMobile{

@@ -32,7 +32,10 @@
 
             &>li {
                 background-color: transparent;
-                border: 1px solid $light-gray;
+                // border: 1px solid $light-gray;
+                border-left: 1px solid $light-gray;
+                border-top: 1px solid $light-gray;
+                border-right: 1px solid $light-gray;
                 overflow: hidden;
                 margin: 0;
                 border-radius: .5rem .5rem 0 0;

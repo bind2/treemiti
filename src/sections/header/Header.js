@@ -3,28 +3,26 @@ import React from 'react'
 import dropdownImg from '../../img/dropdown.png'
 import { HashLink as Link } from 'react-router-hash-link'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
+import Particle from '../../particles/Particle'
 
 const Header = () => {
 
   const [typeEffect] = useTypewriter({
-     words: ['Professionals', 'Personalities'],
-     loop: {},
-     typeSpeed: 100,
-     deleteSpeed: 20,
-  })
-
+    words: ['Professionals', 'Personalities'],
+    loop: {},
+    typeSpeed: 100,
+    deleteSpeed: 20
+ })
   return (
     <header>
+      <Particle />
       <div className="container" id='header'>
         <h1>Creating</h1>
         <h1 className='type-effect'>{typeEffect} <span style={{color: '#fff'}}><Cursor/></span></h1>
-
         <h3>Our Philosophy</h3>
-        <p>When your basics are clear, you can comfortably fit yourself with evolving technolog</p>
+        <p>When your basics are clear, you can comfortably fit yourself with evolving technology.</p>
         <p>For instance, if you know how to drive a manual car, you won’t need any time to learn the automatic one.</p>
-        <Link to='/treemiti/#courses'>
-          <img src={dropdownImg} alt="img" />
-        </Link>
+        <Link to='/treemiti/#courses'><img src={dropdownImg} alt="img" /></Link>
       </div>
     </header>
   )

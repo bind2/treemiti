@@ -81,6 +81,8 @@ nav {
                 display: none;
             }
 
+           
+
             @include tablet {
                 &.nav-links-active {
                     width: 20rem;
@@ -118,6 +120,13 @@ nav {
                 }
             }
         }
+
+        // &>.qr-code{
+        //     width: 7rem;
+        //     height: 6rem;
+        //     border: 1px solid red;
+        //     background-color: #fff;
+        // }
 
         &>.menu-bar {
             // border: 1px solid red;
