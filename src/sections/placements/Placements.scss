@@ -1,9 +1,9 @@
 .placements-section {
     background-color: $light-gray;
-    border: 1px solid red;
+    // border: 1px solid red;
 
     &>#placements {
-        border: 1px solid red;
+        // border: 1px solid red;
         padding: 3rem 0;
 
         &>h2 {
@@ -45,11 +45,11 @@
                     box-shadow: 0 .3rem .6rem rgba(0,0,0,0.23);
 
                     &:first-child{
-                        left: -2.2rem;
+                        left: -1.9rem;
                     }
 
                     &:last-child{
-                        right: -2.2rem;
+                        right: -1.9rem;
                     }
                 }
 

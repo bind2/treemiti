@@ -6,8 +6,9 @@ import Main from './layout/main/Main';
 import Footer from './layout/footer/Footer';
 import Root from './root/Root';
 import CourseDetails from './internal-pages/course-details/CourseDetails';
-import CareerGuidance from './internal-pages/career-guidance/CareerGuidance';
+import StudentSupport from './internal-pages/student-support/StudentSupport';
 import ErrorPage from './error-page/ErrorPage';
+import CareerGuidance from './internal-pages/career-guidance/CareerGuidance';
 
 function App() {
   
@@ -31,6 +32,10 @@ function App() {
         },
         {
           path: '/treemiti/:id',
+          element: <StudentSupport/>
+        },
+        {
+          path: '/treemiti/career-guidance',
           element: <CareerGuidance/>
         }
       ]
