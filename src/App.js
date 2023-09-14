@@ -9,34 +9,39 @@ import CourseDetails from './internal-pages/course-details/CourseDetails';
 import StudentSupport from './internal-pages/student-support/StudentSupport';
 import ErrorPage from './error-page/ErrorPage';
 import CareerGuidance from './internal-pages/career-guidance/CareerGuidance';
+import Feedback from './internal-pages/feedback/Feedback';
 
 function App() {
-  
+
   const router = createBrowserRouter([
     {
-      path: '/treemiti',
+      path: '/treemiti/',
       element: <React.Fragment>
-        <Navbar/>
-        <Main/>
-        <Footer/>
+        <Navbar />
+        <Main />
+        <Footer />
       </React.Fragment>,
-      errorElement: <ErrorPage/>,
-      children:[
+      errorElement: <ErrorPage />,
+      children: [
         {
-          path: '/treemiti',
-          element: <Root/>
+          path: '/treemiti/',
+          element: <Root />
         },
         {
-          path: '/treemiti/course/:id',
-          element: <CourseDetails/>
+          path: '/treemiti/course/:id/:id',
+          element: <CourseDetails />
         },
         {
-          path: '/treemiti/:id',
-          element: <StudentSupport/>
+          path: '/treemiti/about/:id/:id',
+          element: <StudentSupport />
         },
         {
           path: '/treemiti/career-guidance',
-          element: <CareerGuidance/>
+          element: <CareerGuidance />
+        },
+        {
+          path: '/treemiti/feedback/:id',
+          element: <Feedback/>
         }
       ]
     }

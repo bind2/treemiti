@@ -32,14 +32,12 @@
             &>p {
                 font-size: 1.4rem;
                 line-height: 2.4rem;
-                // font-weight: 300;
             }
         }
 
         &>.carts {
             // border: 1px solid red;
             background-color: $light-gray;
-            // margin-top: 5rem;
             padding: 1.5rem 0;
 
             &>h3 {
@@ -60,19 +58,19 @@
                 &>.cart-scope {
                     // border: 1px solid red;
                     width: 30rem;
-                    min-height: 10rem;
+                    min-height: 5rem;
+                    height: 100%;
                     flex: 1 1 auto;
                     margin: 1.5rem;
-                    // padding: 2rem;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
 
                     &>h6 {
+                        // border: 1px solid red;
                         font-size: 1.6rem;
                         color: $primary-color;
                         margin-bottom: 1rem;
-                        // border: 1px solid red;
                     }
 
                     &>div{
@@ -85,13 +83,11 @@
 
                     &>address {
                         // border: 1px solid red;
-                        // margin-top: 1rem;
                         text-align: center;
 
                         &>p {
                             font-style: normal;
                             font-size: 1.4rem;
-                            // font-weight: 300;
                             line-height: 2.4rem;
 
                             &>a {

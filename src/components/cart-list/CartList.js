@@ -1,7 +1,6 @@
 import React from 'react'
 
-const CartList = (props) => {
-  const {jobRole, certificateName, duration, skills} = props
+const CartList = ({jobRole, certificateName, duration, skills}) => {
   return (
     <div className='cart'>
       <h5>

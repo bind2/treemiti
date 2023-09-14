@@ -1,180 +1,20 @@
 .placements-section {
-    background-color: $light-gray;
+  background-color: #EEEEEE;
+  // border: 1px solid red;
+
+  &>#placements {
     // border: 1px solid red;
+    padding: 3rem 0;
 
-    &>#placements {
-        // border: 1px solid red;
-        padding: 3rem 0;
-
-        &>h2 {
-            text-align: center;
-            color: $red;
-            font-size: 3.5rem;
-            font-weight: 400;
-            font-family: $primary-font;
-            // margin: 0 1rem;
-            // border: 1px solid red;
-        }
-
-        &>.carousel-container {
-            padding: 0 2rem;
-            // border: 1px solid red;
-            margin-top: 2rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            &>.wrapper {
-                // border: 1px solid red;
-                max-width: 1125px;
-                width: 100%;
-                position: relative;
-
-                &>i{
-                    width: 5rem;
-                    height: 5rem;
-                    background-color: $white;
-                    text-align: center;
-                    line-height: 5rem;
-                    border-radius: 50%;
-                    // font-size: 2rem;
-                    cursor: pointer;
-                    position: absolute;
-                    top: 50%;
-                    transform: translateY(-50%);
-                    box-shadow: 0 .3rem .6rem rgba(0,0,0,0.23);
-
-                    &:first-child{
-                        left: -1.9rem;
-                    }
-
-                    &:last-child{
-                        right: -1.9rem;
-                    }
-                }
-
-                &>.carousel {
-                    // border: 1px solid red;
-                    display: grid;
-                    grid-auto-flow: column;
-                    grid-auto-columns: calc((100% / 4) - 15px);
-                    gap: 20px;
-                    overflow-x: auto;
-                    scroll-snap-type: x mandatory;
-                    scroll-behavior: smooth;
-                    scrollbar-width: 0;
-
-                    &>.card {
-                        scroll-snap-align: start;
-                        height: 342px;
-                        list-style: none;
-                        background-color: $white;
-                        border-radius: 8px;
-                        cursor: pointer;
-                        display: flex;
-                        padding-bottom: 15px;
-                        justify-content: center;
-                        align-items: center;
-                        flex-direction: column;
-
-                        &>.img {
-                            width: 146px;
-                            height: 146px;
-                            border-radius: 50%;
-                            background-color: $primary-color;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-
-                            &>img {
-                                width: 140px;
-                                height: 140px;
-                                border-radius: 50%;
-                                object-fit: cover;
-                                border: 2px solid $white;
-                            }
-                        }
-
-                        &>h2{
-                            font-weight: 500;
-                            font-size: 2rem;
-                            margin: 3rem 0 .5rem;
-                        }
-
-                        &>span{
-                            color: #4f5055;
-                            font-size: 1.5rem;
-                        }
-
-                        &>h4{
-                            // color: #535458;
-                            font-size: 1.5rem;
-                        }
-                    }
-
-                    &.dragging{
-                        scroll-behavior: auto;
-                        scroll-snap-type: none;
-                        &>.card{
-                            cursor: grab;
-                            user-select: none;
-                        }
-                    }
-
-                    &::-webkit-scrollbar{
-                        display: none;
-                    }
-
-                    &.no-transition{
-                        scroll-behavior: auto;
-                    }
-                }
-            }
-        }
+    &>h2 {
+      text-align: center;
+      color: red;
+      font-size: 3.5rem;
+      font-weight: 400;
+      font-family: 'Philosopher', sans-serif;
+      margin-bottom: 2rem;
+      // margin: 0 1rem;
+      // border: 1px solid red;
     }
-}
-
-
-@media (max-width:1024px){
-    .placements-section{
-        &>#placements{
-            &>.carousel-container{
-                &>.wrapper{
-                    &>.carousel{
-                        grid-auto-columns: calc((100% / 3) - 12px);
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media (max-width:768px){
-    .placements-section{
-        &>#placements{
-            &>.carousel-container{
-                &>.wrapper{
-                    &>.carousel{
-                        grid-auto-columns: calc((100% / 2) - 9px);
-                    }
-                }
-            }
-        }
-    }
-}
-@media (max-width:425px){
-    .placements-section{
-        &>#placements{
-            &>h2{
-                font-size: 3rem;
-            }
-            &>.carousel-container{
-                &>.wrapper{
-                    &>.carousel{
-                        grid-auto-columns: 100%;
-                    }
-                }
-            }
-        }
-    }
+  }
 }

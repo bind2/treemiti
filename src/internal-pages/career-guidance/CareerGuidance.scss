@@ -1,6 +1,135 @@
 @import '../../sass/breakPoints.scss';
-.career-guidance-section{
-    &>#career-guidance{
+
+.career-guidance-section {
+    &>#career-guidance {
+        padding: 3rem 1.5rem;
+
+        &>h2 {
+            // border: 1px solid red;
+            text-align: center;
+            color: $red;
+            font-size: 3.5rem;
+            font-weight: 400;
+            font-family: $primary-font;
+
+            @include largeMobile{
+                font-size: 3rem;
+            }
+
+            &>small{
+                color: #777;
+                font-weight: 400;
+                font-family: $primary-font;
+                font-size: 2.5rem;
+
+                @include largeMobile{
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        &>.creer-guidance-container {
+            // border: 1px solid red;
+            margin: 4rem 0;
+            display: flex;
+            // align-items: start;
+            gap: 2rem;
+
+            @include tablet{
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+            }
+
+            &>aside {
+                // border: 1px solid blue;
+                min-width: 25rem;
+                height: 100vh;
+                position: sticky;
+                top: 21.8rem;
+                left: 0;
+
+                @include tablet{
+                    width: 25rem;
+                    height: 25rem;
+                    position: static;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                @include largeMobile{
+                    width: 100%;
+                    height: 100%;
+                }
+
+                &>figure{
+                    // border: 1px solid green;
+                    width: 25rem;
+                    height: 25rem;
+
+                    @include largeMobile{
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    &>img {
+                        // border: 1px solid red;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }  
+            }
+
+            &>article {
+                // border: 1px solid red;
+                &>h4{
+                    color: $primary-color;
+                    font-family: $secondary-font;
+                    font-size: 1.8rem;
+                    font-weight: 400;
+                }
+
+                &>p{
+                    font-size: 1.4rem;
+                    line-height: 2.4rem;
+                }
+
+                &>ul{
+                    list-style: none;
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 1.5rem;
+                    margin-top: 2rem;
+
+                    @include tablet{
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+
+                    @include largeMobile{
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+                    &>li{
+                        // border: 1px solid red;
+
+                        &>a{
+                            display: inline-block;
+                            padding: .5rem;
+                            color: #4780b2;
+                            background-color: #CCCCCC;
+                            min-height: 1rem;
+                            width: 100%;
+                            height: 100%;
+
+                            &:hover{
+                                color: #23527C;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
 
         @include otherCoursesStyle
     }

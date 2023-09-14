@@ -1,27 +1,44 @@
 import React from 'react'
-// import './CourseDetails.scss'
 import CourseCart from '../../components/course-cart/CourseCart'
 import CourseData from '../../data/CourseData.json'
-import { useParams } from 'react-router-dom'
 import CartList from '../../components/cart-list/CartList'
 import { HashLink as Link } from 'react-router-hash-link'
+import { useParams } from 'react-router-dom'
+// import { useLocation } from 'react-router-dom'
 
 
 const CourseDetails = () => {
+    // const location = useLocation()
+    // let index = location.state.id
+    // let [state, setState] = useState(index)
+
+    // const getData = (index) => {
+    //     setState(index)
+    // }
+
+    // console.log(state)
+
     const cartList = CourseData.map((data, index) => {
         const { img, name, path } = data
-        return <CourseCart key={index} index={index} img={'.' + img} name={name} path={path}
+        return <CourseCart
+            key={index}
+            index={index}
+            img={'../.' + img}
+            name={name}
+            path={path}
         />
     })
-    const params = useParams()
-    const { name, title, discription, eligibility, scope } = CourseData[params.id]
+
+    const param = useParams()
+
+    const { name, title, discription, eligibility, scope } = CourseData[param.id]
     document.title = name + " Courses Training Institute in Nashik"
 
-
-    const courseCartList = CourseData[params.id].coursesOffer.map((data, index) => {
+    const courseCartList = CourseData[param.id].coursesOffer.map((data, index) => {
         const { jobRole, certificateName, duration, skills } = data
         return <CartList
             key={index}
+            index={index}
             jobRole={jobRole}
             certificateName={certificateName}
             duration={duration}
@@ -36,7 +53,6 @@ const CourseDetails = () => {
                 <div className="carts">
                     <h3>Courses We Offer</h3>
                     <div>
-
                         {courseCartList}
                     </div>
                     <div>

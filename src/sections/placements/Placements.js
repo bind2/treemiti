@@ -1,150 +1,51 @@
-import React, { useEffect } from 'react'
-// import './Placements.scss'
-import cimg from '../../img/pexels-sindre-fs-1040881.jpg'
+import React from 'react'
+import Card from '../../components/slider-cart/Card';
+import 'react-multi-carousel/lib/styles.css';
+import Carousel from 'react-multi-carousel';
+import CarouselData from '../../data/Carousel.json'
 
-const Placements = () => {
+const Placements = (props) => {
+  const responsive = {
+    largeLaptop: {
+      breakpoint: { max: 4000, min: 1200 },
+      items: 5
+    },
+    laptop: {
+      breakpoint: { max: 1199, min: 992 },
+      items: 4
+    },
+    smallLaptop: {
+      breakpoint: { max: 991, min: 768 },
+      items: 3
+    },
+    tablet: {
+      breakpoint: { max: 767, min: 576 },
+      items: 2
+    },
+    largeMobile: {
+      breakpoint: { max: 575, min: 0 },
+      items: 1
+    },
+  };
 
-useEffect(()=>{
-  const wrapper = document.querySelector(".wrapper")
-  const carousel = document.querySelector(".carousel")
-  const arrowBtn = document.querySelectorAll(".wrapper i")
-  const firstCardWidth = carousel.querySelector('.card').offsetWidth
-  const carouselChildrens = [...carousel.children]
-
-  let isDragging = false, startX, startScrollLeft, timeoutId
-
-  let cardPreView = Math.round(carousel.offsetWidth / firstCardWidth)
-
-  carouselChildrens.slice(-cardPreView).reverse().forEach(card => {
-    carousel.insertAdjacentHTML('afterbegin', card.outerHTML)
+  const carouselList = CarouselData.map((data, index) => {
+    const { name, img, field, company } = data
+    return <Card key={index} name={name} img={img} field={field} company={company} />
   })
-
-  carouselChildrens.slice(0, -cardPreView).forEach(card => {
-    carousel.insertAdjacentHTML('beforeend', card.outerHTML)
-  })
-
-  arrowBtn.forEach((btn)=>{
-    btn.addEventListener('click', ()=>{
-      carousel.scrollLeft = btn.id === 'left' ? -firstCardWidth : firstCardWidth
-    })
-  })
-
-  const dragStart = (e) => {
-    isDragging = true
-    carousel.classList.add('dragging')
-    startX = e.pageX
-    startScrollLeft = carousel.scrollLeft
-  }
-
-  const dragging = (e)=>{
-    if(!isDragging) return
-    carousel.scrollLeft = startScrollLeft - (e.pageX - startX)
-  }
-
-  const dragStop = () =>{
-    isDragging = false
-    carousel.classList.remove('dragging')
-  }
-
-  const autoPlay = () =>{
-    if(window.innerWidth < 800) return
-    timeoutId = setTimeout(()=> carousel.scrollLeft += firstCardWidth, 2500)
-  }
-
-  autoPlay()
-
-  const infiniteScroll = () =>{
-    if(carousel.scrollLeft === 0){
-      carousel.classList.add('no-transition')
-      carousel.scrollLeft = carousel.scrollWidth - (2 * carousel.offsetWidth)
-      carousel.classList.remove('no-transition')
-    }
-    else if(Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth){
-      carousel.classList.add('no-transition')
-      carousel.scrollLeft = carousel.offsetWidth
-      carousel.classList.remove('no-transition')
-    }
-    clearTimeout(timeoutId)
-    if(!wrapper.matches(':hover')) autoPlay()
-  }
-
-  carousel.addEventListener('mousedown', dragStart)
-  carousel.addEventListener('mousemove', dragging)
-  carousel.addEventListener('mouseup', dragStop)
-  carousel.addEventListener('scroll', infiniteScroll)
-  wrapper.addEventListener('mouseenter', ()=> clearTimeout(timeoutId))
-  wrapper.addEventListener('mouseleave', autoPlay)
-
-})
-
-
   return (
     <section className='placements-section'>
       <div className="container" id='placements'>
         <h2>OUR PLACEMENTS</h2>
-
-        <div className="carousel-container">
-          <div className="wrapper">
-            <i className="fa-solid fa-angle-left" id='left'></i>
-            <ul className="carousel">
-              <li className='card'>
-                <div className="img"><img src={cimg} alt="img" draggable='false'/></div>
-                <h2>Deepak Bind</h2>
-                <span>Full Stack Web Developer</span>
-                <h4>Treemiti - Nashik</h4>
-              </li>
-              <li className='card'>
-                <div className="img"><img src={cimg} alt="img" draggable='false'/></div>
-                <h2>Deepak Bind</h2>
-                <span>Web Developer</span>
-                <h4>Treemiti - Nashik</h4>
-              </li>
-              <li className='card'>
-                <div className="img"><img src={cimg} alt="img" draggable='false'/></div>
-                <h2>Deepak Bind</h2>
-                <span>Web Developer</span>
-                <h4>Treemiti - Nashik</h4>
-              </li>
-              <li className='card'>
-                <div className="img"><img src={cimg} alt="img" draggable='false'/></div>
-                <h2>Deepak Bind</h2>
-                <span>Web Developer</span>
-                <h4>Treemiti - Nashik</h4>
-              </li>
-              <li className='card'>
-                <div className="img"><img src={cimg} alt="img" draggable='false'/></div>
-                <h2>Blanche Pearson</h2>
-                <span>Sales Manager</span>
-              </li>
-              <li className='card'>
-                <div className="img"><img src={cimg} alt="img" draggable='false'/></div>
-                <h2>Deepak Bind</h2>
-                <span>Web Developer</span>
-                <h4>Treemiti - Nashik</h4>
-              </li>
-              <li className='card'>
-                <div className="img"><img src={cimg} alt="img" draggable='false'/></div>
-                <h2>Deepak Bind</h2>
-                <span>Web Developer</span>
-                <h4>Treemiti - Nashik</h4>
-              </li>
-              <li className='card'>
-                <div className="img"><img src={cimg} alt="img" draggable='false'/></div>
-                <h2>Deepak Bind</h2>
-                <span>Web Developer</span>
-                <h4>Treemiti - Nashik</h4>
-              </li>
-              <li className='card'>
-                <div className="img"><img src={cimg} alt="img" draggable='false'/></div>
-                <h2>Deepak Bind</h2>
-                <span>Web Developer</span>
-                <h4>Treemiti - Nashik</h4>
-              </li>
-            </ul>
-            <i className="fa-solid fa-angle-right" id='right'></i>
-          </div>
-        </div>
-
+        <Carousel
+          infinite={true}
+          // autoPlaySpeed={2000}
+          autoPlay={props.deviceType !== "largeMobile" ? true : false}
+          className='sliderCont'
+          responsive={responsive}
+          draggable={false}
+        >
+          {carouselList}
+        </Carousel>
       </div>
     </section>
   )

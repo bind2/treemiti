@@ -1,19 +1,19 @@
 @import '../../sass/breakPoints.scss';
 
 .testimonials-section{
-    border: 1px solid red;
+    // border: 1px solid red;
     &>#testimonials{
-        border: 1px solid red;
+        // border: 1px solid red;
         padding: 3rem 0;
 
         &>h2{
+            // border: 1px solid red;
             text-align: center;
             color: $red;
             font-size: 3.5rem;
             font-weight: 400;
             font-family: $primary-font;
-            // padding: 0 1rem;
-            // border: 1px solid red;
+            margin-bottom: 2rem;
 
             @include largeMobile{
                 font-size: 3rem;
@@ -21,18 +21,24 @@
         }
 
         &>.feedback-container{
-            padding-top: 2rem;
             // border: 1px solid red;
             display: flex;
             justify-content: center;
+
+            @include laptop{
+                flex-direction: column;
+            }
             &>.feedback-box{
-                // width: 100%;
+                // border: 1px solid blue;
+                background-color: $light-gray;
+                flex: 1;
+                min-height: 40rem;
                 margin: 1.5rem;
                 padding: 1rem;
-                border: 1px solid red;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+
 
                 &>h3 {
                     text-align: center;
