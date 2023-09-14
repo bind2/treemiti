@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/treemiti/static/css/main.69525fa0.css",
-    "main.js": "/treemiti/static/js/main.a9b56199.js",
+    "main.css": "/treemiti/static/css/main.5c44c82a.css",
+    "main.js": "/treemiti/static/js/main.9458d1e2.js",
     "static/js/787.87bcd282.chunk.js": "/treemiti/static/js/787.87bcd282.chunk.js",
-    "static/media/pexels-sindre-fs-1040881.jpg": "/treemiti/static/media/pexels-sindre-fs-1040881.0253d869e2aa5f34b911.jpg",
     "static/media/treemiti-home.jpg": "/treemiti/static/media/treemiti-home.1dc3cbb7dfa6272f94fe.jpg",
     "static/media/treemiti-footer.jpg": "/treemiti/static/media/treemiti-footer.4567637d3216fec7b3fb.jpg",
+    "static/media/treemiti-placement-assistance.png": "/treemiti/static/media/treemiti-placement-assistance.aab27dcddb48e282e3f3.png",
     "static/media/Treemiti-Informatics.jpg": "/treemiti/static/media/Treemiti-Informatics.1f89dea930d90390abb0.jpg",
     "static/media/treemiti-white-logo.png": "/treemiti/static/media/treemiti-white-logo.3e80de3e12f04f165f1b.png",
+    "static/media/revicons.eot": "/treemiti/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/treemiti/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/treemiti/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/treemiti/index.html",
-    "main.69525fa0.css.map": "/treemiti/static/css/main.69525fa0.css.map",
-    "main.a9b56199.js.map": "/treemiti/static/js/main.a9b56199.js.map",
+    "main.5c44c82a.css.map": "/treemiti/static/css/main.5c44c82a.css.map",
+    "main.9458d1e2.js.map": "/treemiti/static/js/main.9458d1e2.js.map",
     "787.87bcd282.chunk.js.map": "/treemiti/static/js/787.87bcd282.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69525fa0.css",
-    "static/js/main.a9b56199.js"
+    "static/css/main.5c44c82a.css",
+    "static/js/main.9458d1e2.js"
   ]
 }
