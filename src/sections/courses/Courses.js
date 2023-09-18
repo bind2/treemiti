@@ -1,21 +1,12 @@
 import React from 'react'
 import CourseCart from '../../components/course-cart/CourseCart'
 import CourseData from '../../data/CourseData'
-// import { useNavigate } from 'react-router-dom'
 
 const Courses = () => {
 
-    // const navigate = useNavigate()
-
-    // const getData =(index)=>{
-    //     let path = CourseData[index].path
-    //     navigate(`/treemiti/course/${path}`, {state: {id: index}})
-    // }
-
-
     const cartList = CourseData.map((data, index) => {
         const {img, name, path} = data
-        return <CourseCart key={index} index={index} img={img} name={name} path={path} 
+        return <CourseCart key={index} index={index} img={img} name={name} path={path}
         />
     })
 

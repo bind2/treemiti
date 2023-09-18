@@ -1,11 +1,9 @@
 import React from 'react'
-// import './CourseCart.scss'
 import { HashLink as Link } from 'react-router-hash-link'
 
-const CourseCart = ({ getData, img, name, path, index }) => {
-    // const { getData, img, name, path } = props
+const CourseCart = ({ index, img, name, path}) => {
     return (
-        <div className='course-cart' >
+        <div className='course-cart'>
             <Link to={`/treemiti/course/${path}/${index}#`}>
                 <figure>
                     <img src={img} alt="img" />

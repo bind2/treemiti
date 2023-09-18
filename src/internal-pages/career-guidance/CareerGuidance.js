@@ -54,16 +54,16 @@ const CareerGuidance = () => {
                         <br />
                         <p>There are numerous career aptitude tests out there that can help you discover what profession is best compatible with your traits, skills, values, and personality. This is why we searched a list of best free career aptitude tests you can take right away</p>
                         <ul>
-                            <li><a href="">123 free career aptitude test</a></li>
-                            <li><a href="">Career Fitter career test</a></li>
-                            <li><a href="">Truity's free career Test</a></li>
-                            <li><a href="">Career Hunter</a></li>
-                            <li><a href="">MAPP test</a></li>
-                            <li><a href="">The Princeton Review career quiz</a></li>
+                            <li><a href="https://www.123test.com/career-test" rel="noreferrer" target='_blank'>123 free career aptitude test</a></li>
+                            <li><a href="https://www.careerfitter.com/free_test/careerbuilder?afid=1498" rel="noreferrer" target='_blank'>Career Fitter career test</a></li>
+                            <li><a href="https://www.truity.com/test/career-personality-profiler-test" rel="noreferrer" target='_blank'>Truity's free career Test</a></li>
+                            <li><a href="https://www.careerhunter.io/?a_id=TREEMITI" rel="noreferrer" target='_blank'>Career Hunter</a></li>
+                            <li><a href="https://www.assessment.com/TakeMAPP/?AccNum=06-1208-000.00" rel="noreferrer" target='_blank'>MAPP test</a></li>
+                            <li><a href="https://www.princetonreview.com/quiz/career-quiz#!q1thru4" rel="noreferrer" target='_blank'>The Princeton Review career quiz</a></li>
                         </ul>
                     </article>
                 </div>
-                        <hr />
+                <hr />
                 <div className="other-courses">
                     <h3>Our Other Courses</h3>
                     <div>

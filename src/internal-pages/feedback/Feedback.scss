@@ -1,6 +1,36 @@
-.feedback-section{
-    &>#feedback{
+.feedback-navigation-section {
+    width: 100%;
+    background-color: lightcoral;
+    position: fixed;
+    top: 7rem;
+    left: 0;
+    &>#feedback-navitation {
+        padding: 0 1.5rem;
+        // border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 4rem;
+        width: 100%;
+
+        &>a{
+            color: #fff;
+        }
+    }
+}
+
+
+.feedback-section {
+    padding-top: 4rem;
+    &>#feedback {
         border: 1px solid red;
-        padding: 3rem 1.5rem;
+        padding: 0;
+
+
+        &>.feedback-container {
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid blue;
+        }
     }
 }

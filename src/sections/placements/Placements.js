@@ -38,7 +38,6 @@ const Placements = (props) => {
         <h2>OUR PLACEMENTS</h2>
         <Carousel
           infinite={true}
-          // autoPlaySpeed={2000}
           autoPlay={props.deviceType !== "largeMobile" ? true : false}
           className='sliderCont'
           responsive={responsive}

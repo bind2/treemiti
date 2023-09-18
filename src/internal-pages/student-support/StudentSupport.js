@@ -3,21 +3,11 @@ import AboutData from '../../data/AboutData.json'
 import CourseData from '../../data/CourseData.json'
 import CourseCart from '../../components/course-cart/CourseCart'
 import { NavLink as Link } from 'react-router-dom'
-// import { useLocation } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
-// import CourseFeatures from '../../components/course-features/CourseFeatures'
 
 const StudentSupport = () => {
-  // const location = useLocation()
-  //   let index = location.state.id
-  // const [state, setState] = useState(index)
-
-  // const getData = (index) => {
-  //   setState(index)
-  // }
-
   const param = useParams()
-
+  
   const { name, thumbnail, discription } = AboutData[param.id]
   document.title = name
 
@@ -34,6 +24,7 @@ const StudentSupport = () => {
       </Link>
     </li>
   })
+
 
   const cartList = CourseData.map((data, index) => {
     const { img, name, path } = data

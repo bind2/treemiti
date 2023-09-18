@@ -1,15 +1,8 @@
 import React from 'react'
 import CourseFeatures from '../../components/course-features/CourseFeatures'
 import AboutData from '../../data/AboutData.json'
-// import { useNavigate } from 'react-router-dom'
 
 const About = () => {
-  // const navigate = useNavigate()
-
-  //   const getData =(index)=>{
-  //       let path = AboutData[index].path
-  //       navigate(`/treemiti/about/${path}`, {state: {id: index}})
-  //   }
 
   let serviceList = AboutData.map((data, index) => {
     return <CourseFeatures key={index} index={index} img={data.img} name={data.name} path={data.path} />

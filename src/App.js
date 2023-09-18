@@ -10,12 +10,14 @@ import StudentSupport from './internal-pages/student-support/StudentSupport';
 import ErrorPage from './error-page/ErrorPage';
 import CareerGuidance from './internal-pages/career-guidance/CareerGuidance';
 import Feedback from './internal-pages/feedback/Feedback';
+import StudentFeedback from './internal-pages/student-feedback/StudentFeedback';
+import EmployeFeedback from './internal-pages/employe-feedback/EmployeFeedback';
 
 function App() {
 
   const router = createBrowserRouter([
     {
-      path: '/treemiti/',
+      path: '/treemiti',
       element: <React.Fragment>
         <Navbar />
         <Main />
@@ -24,7 +26,7 @@ function App() {
       errorElement: <ErrorPage />,
       children: [
         {
-          path: '/treemiti/',
+          path: '/treemiti',
           element: <Root />
         },
         {
@@ -40,8 +42,18 @@ function App() {
           element: <CareerGuidance />
         },
         {
-          path: '/treemiti/feedback/:id',
-          element: <Feedback/>
+          path: '/treemiti/feedback',
+          element: <Feedback/>,
+          children: [
+            {
+              path: '/treemiti/feedback/student-feedback',
+              element: <StudentFeedback/>
+            },
+            {
+              path: '/treemiti/feedback/employe-feedback',
+              element: <EmployeFeedback/>
+            }
+          ]
         }
       ]
     }

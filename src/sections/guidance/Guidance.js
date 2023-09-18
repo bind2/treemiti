@@ -1,9 +1,12 @@
 import React from 'react'
 import Button from '../../components/button/Button'
-// import './Guidance.scss'
 import { HashLink as Link } from 'react-router-hash-link'
 
 const Guidance = () => {
+  const submitHandler = (e) =>{
+    e.preventDefault()
+    alert('submit form')
+  }
   return (
     <section className='guidance-section'>
       <div className="container" id='guidance'>
@@ -20,27 +23,25 @@ const Guidance = () => {
             </article>
             <Link to='/treemiti/career-guidance#'><Button name='Click for more information'/></Link>
           </div>
+
           <div>
             <h3>Guidance Registration Form</h3>
-
-            <form>
+            <form onSubmit={submitHandler}>
               <div className='name-field'>
-                <input type="text" placeholder='Your Name' required />
+                <input type="text" placeholder='Your Name' name='name' required />
               </div>
-
               <div className='field-box'>
                 <div >
-                  <input type="text" placeholder='Mobile Number' required />
+                  <input type="text" placeholder='Mobile Number' name='number' required />
                 </div>
                 <div >
-                  <input type="email" placeholder='Email id' required />
+                  <input type="email" placeholder='Email id' name='email' required />
                 </div>
               </div>
-
               <div className='field-box'>
                 <div >
                   <select>
-                    <option value="">Select Education</option>
+                    <option>Select Education</option>
                     <option value="HSC">HSC</option>
                     <option value="SSC">SSC</option>
                     <option value="Graduate">Graduate</option>
@@ -50,7 +51,7 @@ const Guidance = () => {
                 </div>
                 <div >
                   <select>
-                    <option value="">Working Status</option>
+                    <option>Working Status</option>
                     <option value="Unemployed">Unemployed</option>
                     <option value="In Service">In Service</option>
                     <option value="Self Employed">Self Employed</option>
@@ -58,12 +59,11 @@ const Guidance = () => {
                   </select>
                 </div>
               </div>
-
               <textarea cols="30" rows="3" placeholder='Comment your interest and / or field for which guidance is needed'></textarea>
-
               <Button type='submit' name='Submit Registration' />
             </form>
           </div>
+          
         </div>
       </div>
     </section>

@@ -4,19 +4,8 @@ import CourseData from '../../data/CourseData.json'
 import CartList from '../../components/cart-list/CartList'
 import { HashLink as Link } from 'react-router-hash-link'
 import { useParams } from 'react-router-dom'
-// import { useLocation } from 'react-router-dom'
-
 
 const CourseDetails = () => {
-    // const location = useLocation()
-    // let index = location.state.id
-    // let [state, setState] = useState(index)
-
-    // const getData = (index) => {
-    //     setState(index)
-    // }
-
-    // console.log(state)
 
     const cartList = CourseData.map((data, index) => {
         const { img, name, path } = data
@@ -30,7 +19,7 @@ const CourseDetails = () => {
     })
 
     const param = useParams()
-
+ 
     const { name, title, discription, eligibility, scope } = CourseData[param.id]
     document.title = name + " Courses Training Institute in Nashik"
 

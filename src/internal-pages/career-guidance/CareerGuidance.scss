@@ -12,17 +12,17 @@
             font-weight: 400;
             font-family: $primary-font;
 
-            @include largeMobile{
+            @include largeMobile {
                 font-size: 3rem;
             }
 
-            &>small{
+            &>small {
                 color: #777;
                 font-weight: 400;
                 font-family: $primary-font;
                 font-size: 2.5rem;
 
-                @include largeMobile{
+                @include largeMobile {
                     font-size: 2rem;
                 }
             }
@@ -35,7 +35,7 @@
             // align-items: start;
             gap: 2rem;
 
-            @include tablet{
+            @include tablet {
                 flex-direction: column;
                 align-items: center;
                 gap: 1rem;
@@ -49,7 +49,7 @@
                 top: 21.8rem;
                 left: 0;
 
-                @include tablet{
+                @include tablet {
                     width: 25rem;
                     height: 25rem;
                     position: static;
@@ -57,17 +57,17 @@
                     justify-content: center;
                 }
 
-                @include largeMobile{
+                @include largeMobile {
                     width: 100%;
                     height: 100%;
                 }
 
-                &>figure{
+                &>figure {
                     // border: 1px solid green;
                     width: 25rem;
                     height: 25rem;
 
-                    @include largeMobile{
+                    @include largeMobile {
                         width: 100%;
                         height: 100%;
                     }
@@ -78,50 +78,53 @@
                         height: 100%;
                         object-fit: cover;
                     }
-                }  
+                }
             }
 
             &>article {
+
                 // border: 1px solid red;
-                &>h4{
+                &>h4 {
                     color: $primary-color;
                     font-family: $secondary-font;
                     font-size: 1.8rem;
                     font-weight: 400;
                 }
 
-                &>p{
+                &>p {
                     font-size: 1.4rem;
                     line-height: 2.4rem;
                 }
 
-                &>ul{
+                &>ul {
                     list-style: none;
                     display: grid;
                     grid-template-columns: repeat(3, 1fr);
                     gap: 1.5rem;
                     margin-top: 2rem;
 
-                    @include tablet{
+                    @include tablet {
                         grid-template-columns: repeat(2, 1fr);
                     }
 
-                    @include largeMobile{
+                    @include largeMobile {
                         grid-template-columns: repeat(1, 1fr);
                     }
-                    &>li{
+
+                    &>li {
                         // border: 1px solid red;
 
-                        &>a{
+                        &>a {
                             display: inline-block;
-                            padding: .5rem;
+                            padding: .5rem 1rem;
                             color: #4780b2;
                             background-color: #CCCCCC;
                             min-height: 1rem;
                             width: 100%;
                             height: 100%;
+                            font-size: 1.4rem;
 
-                            &:hover{
+                            &:hover {
                                 color: #23527C;
                                 text-decoration: underline;
                             }
