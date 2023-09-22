@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/treemiti/static/css/main.0718dbaa.css",
-    "main.js": "/treemiti/static/js/main.e3565ecd.js",
+    "main.css": "/treemiti/static/css/main.0185ff81.css",
+    "main.js": "/treemiti/static/js/main.7eeff0ca.js",
     "static/js/787.87bcd282.chunk.js": "/treemiti/static/js/787.87bcd282.chunk.js",
     "static/media/treemiti-home.jpg": "/treemiti/static/media/treemiti-home.1dc3cbb7dfa6272f94fe.jpg",
     "static/media/treemiti-footer.jpg": "/treemiti/static/media/treemiti-footer.4567637d3216fec7b3fb.jpg",
@@ -12,12 +12,12 @@
     "static/media/revicons.ttf": "/treemiti/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/treemiti/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/treemiti/index.html",
-    "main.0718dbaa.css.map": "/treemiti/static/css/main.0718dbaa.css.map",
-    "main.e3565ecd.js.map": "/treemiti/static/js/main.e3565ecd.js.map",
+    "main.0185ff81.css.map": "/treemiti/static/css/main.0185ff81.css.map",
+    "main.7eeff0ca.js.map": "/treemiti/static/js/main.7eeff0ca.js.map",
     "787.87bcd282.chunk.js.map": "/treemiti/static/js/787.87bcd282.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0718dbaa.css",
-    "static/js/main.e3565ecd.js"
+    "static/css/main.0185ff81.css",
+    "static/js/main.7eeff0ca.js"
   ]
 }
